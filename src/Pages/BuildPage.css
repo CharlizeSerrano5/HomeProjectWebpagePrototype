@@ -5,3 +5,22 @@
 .Build > .HomeOptions-Container> .Bottom-Text >.Note{
     color: rgba(24, 25, 31, 0.5);
 }
+
+.Build>.Testing-Container{
+    background-color: rgba(244,81, 30, 0.07);
+    display: flex;
+}
+
+.Build>.Testing-Container>.Content{
+    display: flex;
+}
+
+.Build>.Testing-Container>.Content >.Left{
+    width: 50%;
+    /* text-align: left; */
+}
+
+.Build>.Testing-Container>.Content >.Right{
+    width: 50%;
+    /* text-align: left; */
+}

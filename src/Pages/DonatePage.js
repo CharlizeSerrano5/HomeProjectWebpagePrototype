@@ -9,33 +9,38 @@ function DonatePage(){
         <div className='Donate'>
             <div className='Top-Container'>
                 <Header></Header>
-                donate
             </div>
             <div className='Donors-Container Container'>
-                <div className='Content Container'>
-                    <div className='Section-Content'>
-                        <div className='Section'>
-                            <h1>01.<br></br>Vision</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
-                            </p>
+                <div className='Gray Content Container'>
+                    <div className='Section-Content Content'>
+                        <div className='Section Left'>
+                            <div className='Content'>
+                                <h1>01.<br></br>Vision</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
+                                </p>
+                            </div>
                         </div>
-                        <div className='Section'>
-                            <h1>02.<br></br>Cause</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
-                            </p>
+                        <div className='Section Left'>
+                            <div className='Content'>
+                                <h1>02.<br></br>Cause</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
+                                </p>
+                            </div> 
                         </div>
-                        <div className='Section'>
-                            <h1>03.<br></br>Benefit</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
-                            </p>
+                        <div className='Section Left'>
+                            <div className='Content'>
+                                <h1>03.<br></br>Benefit</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
+                                </p>
+                            </div>
                         </div>
                     </div>
                     
                 </div>
-                <div className='Content Container'>
+                <div className='Gray Content Container'>
                     <h1>Donation Privileges</h1>
                     <ul>
                         <li>Donate $1000 - Your name brick in Patio </li>

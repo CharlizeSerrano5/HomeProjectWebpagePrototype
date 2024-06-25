@@ -40,7 +40,8 @@ function BuildPage(){
             </div>
             <div className='HomeOptions-Container Container'>
                 <h1>Flexibility and options to suit your lifestyle.</h1>
-                <div className='Options'></div>
+                <div className='Options'>
+                </div>
                 <div className='Bottom-Text'>
                     <p>
                         All models come with our distinctive features: a signature kitchen, a luxurious bathroom with a walk-in shower,
@@ -55,10 +56,15 @@ function BuildPage(){
             </div>
             <div className='Testing-Container Container'>
                 <div className='Content'>
-                    <h1>Test-drive your tiny home and immerse yourself in our full range of activities & amenities!</h1>
-                    <h2>Try before buy @ $199 / Night</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. </p>
-                    <OrangeButton text="Contact Us"></OrangeButton>
+                    <div className='Left'>
+                        <h1>Test-drive your tiny home and immerse yourself in our full range of activities & amenities!</h1>
+                        <h2>Try before buy @ $199 / Night</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. </p>
+                        <OrangeButton text="Contact Us"></OrangeButton>
+                    </div>
+                    <div className='Right'>
+
+                    </div>
                 </div>
             </div>
             <div className='Contact-Container Container'>

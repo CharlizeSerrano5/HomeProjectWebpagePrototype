@@ -1,3 +1,39 @@
 .Footer{
     font-size: 14px;
 }
+
+.Footer>.Bottom{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.Footer-UI{
+    border-top: solid;
+    border-color: #F4511E;
+    /* display: flex; */
+}
+.Middle{
+    display: flex;
+}
+
+.Middle>.Left{
+    width: 50%;
+}
+
+.Footer-Pages{
+    /* background-color: pink; */
+}
+
+
+
+.Footer-Pages>li{
+    display: inline-block;
+    /* background-color: yellow; */
+    margin-right: 20px;    
+}
+
+.Bottom>.Copyright{
+    color: #0A142F;
+}

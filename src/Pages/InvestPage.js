@@ -16,7 +16,7 @@ function InvestPage(){
                     <h1>Why Invest With Us?</h1>
                     <div className='Section-Container'>
                         <div className='Section'>
-                            <h>One global login</h>
+                            <h4>One global login</h4>
                             <p>
                                 Skip the login nightmare for all your
                                 different accounts, instead, see
@@ -24,14 +24,14 @@ function InvestPage(){
                             </p>
                         </div>
                         <div className='Section'>
-                            <h>Real-time link</h>
+                            <h4>Real-time link</h4>
                             <p>
                                 Go from delayed and inaccurate
                                 information to one, real time dashboard.
                             </p>
                         </div>
                         <div className='Section'>
-                            <h>Reporting, solved</h>
+                            <h4>Reporting, solved</h4>
                             <p>
                                 Easily create beautiful, custom reports on your balances, cash-flows and transactions.
                             </p>
@@ -39,22 +39,30 @@ function InvestPage(){
                     </div>
                 </div>
             </div>
-            <div className='Chart-Container Container'>
+            <div className='Returns-Container Container'>
                 <div className='Content'>
-                    <h1>Returns on Investment</h1>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
-                    </p>
-                    <OrangeButton text="Invest"></OrangeButton>
+                    <div className='Chart-Container Container'>
+                        <div className='Content'>
+                            <div className='Left'>
+                                <h1>Returns on Investment</h1>
+                                <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. Lorem ipsum dolor sit amet, 
+                                    consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
+                                </p>
+                                <OrangeButton text="Invest"></OrangeButton>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
                 </div>
             </div>
             <div className='Investor-Container Container'>

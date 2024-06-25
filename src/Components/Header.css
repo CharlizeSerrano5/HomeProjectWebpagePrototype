@@ -11,7 +11,7 @@
 }
 
 .Header>.Header-Content{
-    /* padding: 20px; */
+    padding: 20px;
     display: flex;
     flex-direction: right;
     /* background-color: red; */
@@ -19,26 +19,28 @@
 
 .Header>.Header-Content>.Pages{
     /* display: inline-block; */
-    background-color: pink;
+    /* background-color: pink; */
     text-decoration: none;
     margin: 0;
     width: 50%;
 
 }
 .Header>.Header-Content>.Left{
-    background-color: red;
+    /* background-color: red; */
     width: 25%;
+    text-align: center;
 }
 
 .Header>.Header-Content>.Pages>li{
-    background-color: yellow;
+    /* background-color: yellow; */
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 100px;
 }
 
 .Header>.Header-Content>.Right{
     width: 25%;
-    background-color: blue;
+    text-align: center;
+    /* background-color: blue; */
     display: inline-block;
 }
 

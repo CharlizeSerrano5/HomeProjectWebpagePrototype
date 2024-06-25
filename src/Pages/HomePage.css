@@ -7,19 +7,29 @@
     display: flex;
     text-align: left;
 }
-.Home> .Assessment-Container > .Content>.Left-Content{
+.Home> .Assessment-Container > .Content>.Left{
     align-content: left;
     width: 50%;
 }
-.Home> .Assessment-Container>.Content> .Left-Content>ul{
+.Home> .Assessment-Container>.Content> .Left>ul{
     font-size: 26px;
 }
 
 .Home> .Donate-Container{
     height: 360px;
+    display: block;
     background-color: rgba(244,81, 30, .07);
     justify-content: center;
     /* padding: 50px; */
+}
+
+.Home> .Donate-Container>.Content{
+    /* text-align: center; */
+    /* width: 60%; */
+}
+
+.Home> .Donate-Container>.Content>.OrangeButton{
+    margin: 50px;
 }
 /* 
 .Home> .Donate-Container>.Content{
@@ -45,5 +55,18 @@
 
 .Home>.Quote-Container{
     background-color: rgba(244,81, 30, .07);
+    display: flex;
+    text-align: left;
+}
 
+.Home>.Quote-Container>.Quote-Content>.Quote{
+    width: 50%;
+}
+
+.Home>.Quote-Container>.Quote-Content>.Quote{
+    width: 50%;
+}
+
+.Home>.Quote-Container>.Quote-Content>.Profile{
+    width: 20%;
 }

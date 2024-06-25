@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../Components/Header'
 import Footer from '../Components/Footer'
 import OrangeButton from '../Components/OrangeButton';
+import TopImage from '../Assets/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png';
 import './HomePage.css'
 
 function Home(){
@@ -9,12 +10,14 @@ function Home(){
         <div className='Home'>
             <div className='Top-Container'>
                 <Header></Header>
-                IMAGE PLACEHOLDER
-                <img src="\src\defaultImage.png" width="500" height="500" />
+                <div className='Image'>
+                    <img src={TopImage} width="100%" height="100%" />
+                </div>
             </div>
             <div className='Assessment-Container Container'>
                 <div className='Content'>
-                    <div className='Left-Content'><h1>Build your tiny home, <br></br> Redefine your space.</h1>
+                    <div className='Left'>
+                        <h1>Build your tiny home, <br></br> Redefine your space.</h1>
                         <ul>
                             <li>Take a Free Assessment</li>
                             <li>Select the Floor Plan</li>
@@ -23,7 +26,7 @@ function Home(){
                         <OrangeButton text='Start Building'></OrangeButton>
                         <p className='Note'>We've got you covered from permits to installation. Take a Free Assessment to get your quick estimate now!</p>
                     </div>
-                    <div className='Right-Content'></div>   
+                    <div className='Right'></div>   
                 </div>
                 
             </div>
@@ -54,7 +57,7 @@ function Home(){
                 <h1>The Casita design was also awarded the "People's Choice" award in the Tucson Casita competition.</h1>
             </div>
             <div className='Quote-Container Container'>
-                <div className='Content'>
+                <div className='Quote-Content Content'>
                     <p className='Quote'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis. Nunc vel pellentesque est. Curabitur at odio sit amet libero vulputate efficitur ac nec justo. 
                         Nulla vitae mauris quam. Nulla quam massa, faucibus id pretium ac, mattis eu velit. Donec sed risus a lacus fringilla finibus.
                     </p>

@@ -1,13 +1,13 @@
-.Donors-Container>.Content{
+.Donors-Container>.Gray {
     background-color: #F5F5F5;
     
     
 }
 
-.Donors-Container>.Content>.Section-Content{
-    /* margin: 50px;
-    padding: 50px; */
-}
+/* .Donors-Container>.Content>.Section-Content{
+    margin: 50px;
+    padding: 50px;
+} */
 
 .Donors-Container>.Content>.Section-Content>.Section{
     background-color: #FEF3EF;

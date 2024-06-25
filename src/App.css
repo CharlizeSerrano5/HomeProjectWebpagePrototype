@@ -17,6 +17,10 @@ ul{
   font-size: 26px;
 }
 
+Link{
+  text-decoration: none;
+}
+
 .Content{
   display: block;
   /* padding: 50px; */
@@ -27,4 +31,12 @@ ul{
 
 .Container{
   padding: 50px;
+}
+
+.Left{
+  text-align: left;
+}
+
+.Right{
+  text-align: left;
 }
