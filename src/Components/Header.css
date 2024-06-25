@@ -1,0 +1,28 @@
+
+.Header{
+    height: 250px;
+    width: 100%;
+    background-color: white;
+    border-style: solid;
+    border-color: gray;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+.Header-Content{
+    padding: 20px;
+}
+
+.Header>.Header-Content>.Pages{
+    background-color: white;
+    justify-content: space-evenly;
+    text-decoration: none;
+
+}
+
+.Hea.Header-Content>.Pages>ul>li{
+    display: inline-block;
+    padding-right: 50px;
+}

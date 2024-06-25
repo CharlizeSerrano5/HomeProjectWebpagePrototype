@@ -1,0 +1,11 @@
+.OrangeButton > button{
+    height: 63px;
+    width: 185px;
+    background-color: #DE5741;
+    padding: 5px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}

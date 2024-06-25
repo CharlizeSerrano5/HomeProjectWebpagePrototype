@@ -1,0 +1,39 @@
+.Home> .Assessment-Container{
+    border-style: solid;
+    background-color: white;
+    height: 801px;
+}
+.Home> .Assessment-Container{
+    display: flex;
+    text-align: left;
+}
+.Home> .Assessment-Container > .Content>.Left-Content{
+    align-content: left;
+    width: 50%;
+}
+.Home> .Assessment-Container>.Content> .Left-Content>ul{
+    font-size: 26px;
+}
+
+.Home> .Donate-Container{
+    height: 360px;
+    background-color: rgba(244,81, 30, .07);
+}
+
+
+.Home>.Invest-Container{
+    display: flex;
+    justify-content: center;
+    /* padding: 50px; */
+    height: 954px;
+    background-color: #F2F2F1;
+    text-align: left;
+}
+
+.Home>.Invest-Container>.Content>.Left{
+    width: 50%;
+}
+.Home>.Invest-Container>.Content>.Right{
+    width: 50%;
+    
+}
