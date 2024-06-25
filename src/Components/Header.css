@@ -1,6 +1,5 @@
 
 .Header{
-    height: 250px;
     width: 100%;
     background-color: white;
     border-style: solid;
@@ -11,18 +10,38 @@
     text-align: center;
 }
 
-.Header-Content{
-    padding: 20px;
+.Header>.Header-Content{
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: right;
+    /* background-color: red; */
 }
 
 .Header>.Header-Content>.Pages{
-    background-color: white;
-    justify-content: space-evenly;
+    /* display: inline-block; */
+    background-color: pink;
     text-decoration: none;
+    margin: 0;
+    width: 50%;
 
 }
+.Header>.Header-Content>.Left{
+    background-color: red;
+    width: 25%;
+}
 
-.Hea.Header-Content>.Pages>ul>li{
+.Header>.Header-Content>.Pages>li{
+    background-color: yellow;
     display: inline-block;
-    padding-right: 50px;
+    margin-right: 20px;
+}
+
+.Header>.Header-Content>.Right{
+    width: 25%;
+    background-color: blue;
+    display: inline-block;
+}
+
+.Header>.Header-Content>.Right>.OrangeButton{
+    display: inline;
 }

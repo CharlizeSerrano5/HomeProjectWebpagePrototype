@@ -12,7 +12,7 @@ function Home(){
                 IMAGE PLACEHOLDER
                 <img src="\src\defaultImage.png" width="500" height="500" />
             </div>
-            <div className='Assessment-Container'>
+            <div className='Assessment-Container Container'>
                 <div className='Content'>
                     <div className='Left-Content'><h1>Build your tiny home, <br></br> Redefine your space.</h1>
                         <ul>
@@ -27,7 +27,7 @@ function Home(){
                 </div>
                 
             </div>
-            <div className='Donate-Container'>
+            <div className='Donate-Container Container'>
                 <div className='Content'>
                     <h1>Transform lives with the gift of affordable housing and provide shelter for those in need.</h1>
                     
@@ -35,7 +35,7 @@ function Home(){
                 </div>
                 
             </div>
-            <div className='Invest-Container'>
+            <div className='Invest-Container Container'>
                 <div className='Content'>
                     <div className='Left'></div>
                     <div className='Right'>
@@ -50,11 +50,27 @@ function Home(){
                 </div>
                 
             </div>
-            <div className='Contact-Container'>
-                The Casita design was also awarded the "People's Choice" award in the Tucson Casita competition.
+            <div className='Contact-Container Container'>
+                <h1>The Casita design was also awarded the "People's Choice" award in the Tucson Casita competition.</h1>
             </div>
-            <div className='Quote-Container'>
+            <div className='Quote-Container Container'>
+                <div className='Content'>
+                    <p className='Quote'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis. Nunc vel pellentesque est. Curabitur at odio sit amet libero vulputate efficitur ac nec justo. 
+                        Nulla vitae mauris quam. Nulla quam massa, faucibus id pretium ac, mattis eu velit. Donec sed risus a lacus fringilla finibus.
+                    </p>
+                    <div className='Profile'>
+                        <div className='Image'>
 
+                        </div>
+                        <div className='Person'>
+                            <p className='Name'>Harry Wilson</p>
+                            <p className='Title'>Property Owner</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='Video'>
+                    VIDEO
+                </div>
             </div>
             
 

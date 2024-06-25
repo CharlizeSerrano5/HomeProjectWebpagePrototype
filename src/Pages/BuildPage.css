@@ -1,0 +1,7 @@
+.Build > .HomeOptions-Container{
+    background-color: #F5F5F5;
+}
+
+.Build > .HomeOptions-Container> .Bottom-Text >.Note{
+    color: rgba(24, 25, 31, 0.5);
+}

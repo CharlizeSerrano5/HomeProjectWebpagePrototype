@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-size: 26px;
 }
 
 h1{
@@ -13,11 +14,17 @@ p{
 
 ul{
   list-style-type: none;
-
+  font-size: 26px;
 }
 
 .Content{
   display: block;
-  padding: 50px;
+  /* padding: 50px; */
+  /* background-color: pink; */
   justify-content: space-evenly;
+  margin: 50px;
+}
+
+.Container{
+  padding: 50px;
 }

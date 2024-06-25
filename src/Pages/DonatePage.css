@@ -1,0 +1,23 @@
+.Donors-Container>.Content{
+    background-color: #F5F5F5;
+    
+    
+}
+
+.Donors-Container>.Content>.Section-Content{
+    /* margin: 50px;
+    padding: 50px; */
+}
+
+.Donors-Container>.Content>.Section-Content>.Section{
+    background-color: #FEF3EF;
+    width: 30%;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(222, 87, 65, 0.10)
+}
+
+.Donors-Container>.Content>ul{
+    text-align: left;
+}
