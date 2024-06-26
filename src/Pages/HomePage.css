@@ -1,32 +1,39 @@
-.Home> .Assessment-Container{
+.Home> .Assessment {
     border-style: solid;
     background-color: white;
     height: 801px;
+
 }
-.Home> .Assessment-Container{
-    display: block;
-    text-align: left;
+.Home> .Assessment {
+    /* display: flex; */
+    justify-content: center;
 }
 
-.Home> .Assessment-Container > .Content{
-    width: 1297px;
+.Home> .Assessment  > .Content{
+    width: 1300px;
+    display: flex;
+    background-color: pink;
+    margin: auto;
+
 }
-.Home> .Assessment-Container > .Content>.Left{
+.Home> .Assessment  > .Content>.Left{
     align-content: left;
     width: 50%;
     min-width: 128px;
+    max-height: 909px;
 }
-.Home> .Assessment-Container>.Content> .Left>ul{
+.Home> .Assessment >.Content> .Left>ul{
     font-size: 26px;
 }
 
-.Home> .Assessment-Container > .Content>.Right{
+.Home> .Assessment  > .Content>.Right{
     align-content: right;
     width: 50%;
     min-width: 128px;
+    text-align: right;
 }
 
-.Home> .Donate-Container{
+.Home> .Donate {
     height: 360px;
     display: block;
     background-color: rgba(244,81, 30, .07);
@@ -34,20 +41,20 @@
     /* padding: 50px; */
 }
 
-.Home> .Donate-Container>.Content{
+.Home> .Donate >.Content{
     /* text-align: center; */
-    /* width: 60%; */
+    min-width: 854px;
 }
 
-.Home> .Donate-Container>.Content>.OrangeButton{
+.Home> .Donate >.Content>.OrangeButton{
     margin: 50px;
 }
 /* 
-.Home> .Donate-Container>.Content{
+.Home> .Donate >.Content{
     margin: auto;
 } */
 
-.Home>.Invest-Container{
+.Home>.Invest {
     display: flex;
     justify-content: center;
     /* padding: 50px; */
@@ -56,28 +63,29 @@
     text-align: left;
 }
 
-.Home>.Invest-Container>.Content>.Left{
+.Home>.Invest>.Content{
+    width: 1300px;
+    min-width: 1300px;
+}
+.Home>.Invest >.Content>.Left{
     width: 50%;
 }
-.Home>.Invest-Container>.Content>.Right{
+.Home>.Invest >.Content>.Right{
     width: 50%;
     
 }
 
-.Home>.Quote-Container{
+.Home>.Video {
     background-color: rgba(244,81, 30, .07);
     display: flex;
     text-align: left;
 }
 
-.Home>.Quote-Container>.Quote-Content>.Quote{
+.Home>.Video >.Quote  >.Quote{
     width: 50%;
 }
 
-.Home>.Quote-Container>.Quote-Content>.Quote{
-    width: 50%;
-}
-
-.Home>.Quote-Container>.Quote-Content>.Profile{
+.Home>.Video >.Quote >.Profile{
     width: 20%;
+    display: flex;
 }

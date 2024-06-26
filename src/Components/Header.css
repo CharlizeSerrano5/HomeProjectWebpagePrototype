@@ -2,8 +2,7 @@
 .Header{
     width: 100%;
     background-color: white;
-    border-style: solid;
-    border-color: gray;
+    
     text-decoration: none;
     display: inline-block;
     justify-content: center;
@@ -12,14 +11,14 @@
     
 }
 
-.Header>.Header-Content{
+.Header>.Header  {
     padding: 20px;
     display: flex;
     flex-direction: right;
     /* background-color: red; */
 }
 
-.Header>.Header-Content>.Pages{
+.Header>.Header  >.Pages{
     /* display: inline-block; */
     /* background-color: pink; */
     text-decoration: none;
@@ -27,26 +26,34 @@
     width: 50%;
 
 }
-.Header>.Header-Content>.Left{
+.Header>.Header  >Grid{
+    /* display: inline-block; */
+    /* background-color: pink; */
+    text-decoration: none;
+    margin: 0;
+    min-width: 450px;
+
+}
+.Header>.Header  >.Left{
     /* background-color: red; */
     width: 25%;
     text-align: center;
 }
 
-.Header>.Header-Content>.Pages>li{
+.Header>.Header  >.Pages>li{
     /* background-color: yellow; */
     display: inline-block;
     /* margin-right: 100px; */
 
 }
 
-.Header>.Header-Content>.Right{
+.Header>.Header  >.Right{
     width: 25%;
     text-align: center;
     /* background-color: blue; */
     display: inline-block;
 }
 
-.Header>.Header-Content>.Right>.OrangeButton{
+.Header>.Header  >.Right>.OrangeButton{
     display: inline;
 }

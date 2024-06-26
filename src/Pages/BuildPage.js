@@ -2,21 +2,28 @@ import React from 'react';
 import Header from '../Components/Header'
 import OrangeButton from '../Components/OrangeButton';
 import Footer from '../Components/Footer';
+import { Grid } from '@mui/material';
+import HomeBenefits from '../Assets/BuildHomeBenefits.png'
 import './BuildPage.css';
 
 function BuildPage(){
     return(
         // Requires Header, Image, Footer
         <div className='Build'>
-            <div className='Top-Container'>
+            <div className='Top'>
+                <div className='Container'>
+                    <h1>Build Your Tiny Home, Redefine Your Space</h1>
+                    Take Our Quiz To Discover Your Ideal Plan
+                    <OrangeButton text="Get a Free Assessment"></OrangeButton>
+                </div>
             </div>
-            <div className='Benefits-Container Container'>
+            <div className='Benefits Container'>
                 <div className='Content'>
                     <div className='Image'>
-
+                        <img src={HomeBenefits} height="521" width="387" />
                     </div>
                     <div className='Right'>
-                        <div className='Section'>
+                        {/* <div className='Section'>
                             At Affordable price!
                         </div>
                         <div className='Section'>
@@ -33,13 +40,43 @@ function BuildPage(){
                         </div>
                         <div className='Section'>
                             Seamless installation guaranteed!
-                        </div>
+                        </div> */}
+
+                        <Grid 
+                        container spacing={12}
+                        justifyContent="center"
+                        alignItems="stretch"
+                        >
+                            <Grid item xs={4} zeroMinWidth>
+                                At Affordable price!
+                            </Grid>
+                            
+                            <Grid item xs={4} zeroMinWidth>
+                                Choose your preferred floor plan
+                            </Grid>
+                            <Grid item xs={4} zeroMinWidth>
+                                Secure your permit hassle-free!
+                            </Grid>
+                            <Grid item xs={4} zeroMinWidth>
+                                Personalize Your Amenities!
+                            </Grid>
+                            <Grid item xs={4} zeroMinWidth>
+                                Build quickly as possible!
+                            </Grid>
+                            <Grid item xs={4} zeroMinWidth>
+                                Seamless installation guaranteed!
+                            </Grid>
+                        </Grid>
                     </div>
                 </div>
             </div>
-            <div className='HomeOptions-Container Container'>
+            <div className='Options  Container'>
                 <h1>Flexibility and options to suit your lifestyle.</h1>
-                <div className='Options'>
+                <div className='Image'>
+                    <div className='Content'>
+                        <h1>L - Casita</h1>
+                        One Bedroom - 540 Sq. Ft
+                    </div>
                 </div>
                 <div className='Bottom-Text'>
                     <p>
@@ -53,7 +90,7 @@ function BuildPage(){
                 
                 <OrangeButton text="Get a Free Estimate"></OrangeButton>
             </div>
-            <div className='Testing-Container Container'>
+            <div className='Testing  Container'>
                 <div className='Content'>
                     <div className='Left'>
                         <h1>Test-drive your tiny home and immerse yourself in our full range of activities & amenities!</h1>
@@ -66,7 +103,7 @@ function BuildPage(){
                     </div>
                 </div>
             </div>
-            <div className='Contact-Container Container'>
+            <div className='Contact  Container'>
                 <h1>Available in the vibrant heart of Tuscan, Arizona!</h1>
             </div>
             <Footer></Footer>

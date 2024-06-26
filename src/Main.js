@@ -17,9 +17,7 @@ function Main(){
                     <Route path="/Build" element={<Build></Build>}/>
                     <Route path="/Invest" element={<Invest></Invest>}/>
                     <Route path="/Donate" element={<Donate></Donate>}/>
-
                 </Routes>
-            
             </BrowserRouter>
         </div>
         

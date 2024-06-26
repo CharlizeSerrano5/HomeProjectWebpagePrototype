@@ -1,15 +1,15 @@
-.Donors-Container>.Gray {
+.Donors >.Gray {
     background-color: #F5F5F5;
     
     
 }
 
-/* .Donors-Container>.Content>.Section-Content{
+/* .Donors >.Content>.Section  {
     margin: 50px;
     padding: 50px;
 } */
 
-.Donors-Container>.Content>.Section-Content>.Section{
+.Donors >.Content>.Section  >.Section{
     background-color: #FEF3EF;
     width: 30%;
     min-height: 520px;
@@ -20,6 +20,6 @@
     
 }
 
-.Donors-Container>.Content>ul{
+.Donors >.Content>ul{
     text-align: left;
 }

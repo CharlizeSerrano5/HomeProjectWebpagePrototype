@@ -2,18 +2,24 @@ import React from 'react';
 import Header from '../Components/Header'
 import OrangeButton from '../Components/OrangeButton';
 import Footer from '../Components/Footer';
+import Profile from '../Assets/Profile.svg'
 import './InvestPage.css'
 
 function InvestPage(){
     return(
         // Requires Header, Image, Footer
         <div className='Invest'>
-            <div className='Top-Container'>
+            <div className='Top'>
+                <div className='Container'>
+                    <h1>Secure Your Yomorrow With Rewarding Investments In Our Visionary Plan!</h1>
+                    <OrangeButton text="Invest"></OrangeButton>
+                    Existing Investors? Sign In
+                </div>
             </div>
-            <div className='Why-Container Container'>
+            <div className='Why  Container'>
                 <div className='Content'>
                     <h1>Why Invest With Us?</h1>
-                    <div className='Section-Container'>
+                    <div className='Section '>
                         <div className='Section'>
                             <h4>One global login</h4>
                             <p>
@@ -38,9 +44,9 @@ function InvestPage(){
                     </div>
                 </div>
             </div>
-            <div className='Returns-Container Container'>
+            <div className='Returns  Container'>
                 <div className='Content'>
-                    <div className='Chart-Container Container'>
+                    <div className='Chart  Container'>
                         <div className='Content'>
                             <div className='Left'>
                                 <h1>Returns on Investment</h1>
@@ -64,10 +70,10 @@ function InvestPage(){
                     
                 </div>
             </div>
-            <div className='Investor-Container Container'>
+            <div className='Investor  Container'>
                 <div className='Content'>
                     <div className='Image'>
-
+                        <img src={Profile} height="246" width="246" />
                     </div>
                     <div className='Right'>
                         <p className='Quote'>
@@ -75,12 +81,13 @@ function InvestPage(){
                             Nunc vel pellentesque est. Curabitur at odio sit amet libero vulputate efficitur ac nec justo. Nulla vitae mauris quam. Nulla quam massa, 
                             faucibus id pretium ac, mattis eu velit. Donec sed risus a lacus fringilla finibus.
                         </p>
+                        
                         <p className='Name'>Harry Wilson</p>
                         <p>Investor</p>
                     </div>
                 </div>
             </div>
-            <div className='Assistance-Container Container'>
+            <div className='Assistance  Container'>
                 <div className='Content'>
                     <h2>Need assistance with designing or planning the shed of your dreams? Fill out this form and one of our experts will be in touch with you shortly to set up a complimentary phone consultation.
                     </h2>

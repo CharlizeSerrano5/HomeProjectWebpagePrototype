@@ -16,6 +16,11 @@ ul{
   list-style-type: none;
   font-size: 26px;
 }
+li{
+  list-style-image: url('Assets/Checkmark.svg');
+  vertical-align: center;
+
+}
 
 Link{
   text-decoration: none;
@@ -39,4 +44,29 @@ Link{
 
 .Right{
   text-align: left;
+}
+
+.Name{
+  font-weight: bold;
+  color: #F4511E;
+}
+
+.Top{
+  display: flex;
+  background-image: url("./Assets/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png");
+  min-height: 650px;
+  min-width: 1440px;
+  padding: auto;
+}
+
+.Top>.Container{
+  
+  color: white;
+  vertical-align: center;
+  height: 50%;
+  margin: auto;
+}
+
+.Image{
+  color: white;
 }

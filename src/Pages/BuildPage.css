@@ -1,26 +1,41 @@
-.Build > .HomeOptions-Container{
+.Build > .Options {
     background-color: #F5F5F5;
 }
 
-.Build > .HomeOptions-Container> .Bottom-Text >.Note{
+.Build > .Options > .Image{
+    background-color: #D9D9D9;
+    width: 1065px;
+    height: 701px;
+    margin: auto;
+}
+
+.Build > .Options > .Image >.Content{
+    
+}
+
+.Build > .Options > .Bottom-Text >.Note{
     color: rgba(24, 25, 31, 0.5);
 }
 
-.Build>.Testing-Container{
+.Build>.Testing {
     background-color: rgba(244,81, 30, 0.07);
     display: flex;
 }
 
-.Build>.Testing-Container>.Content{
+.Build>.Testing >.Content{
     display: flex;
 }
 
-.Build>.Testing-Container>.Content >.Left{
+.Build>.Testing >.Content >.Left{
     width: 50%;
     /* text-align: left; */
 }
 
-.Build>.Testing-Container>.Content >.Right{
+.Build>.Testing >.Content >.Right{
     width: 50%;
     /* text-align: left; */
+}
+
+.Build>.Benefits>.Content{
+    display: flex;
 }

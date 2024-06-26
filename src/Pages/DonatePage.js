@@ -2,17 +2,22 @@ import React from 'react';
 import Header from '../Components/Header'
 import Footer from '../Components/Footer';
 import { Item,Grid } from '@mui/material';
+import OrangeButton from '../Components/OrangeButton';
 import './DonatePage.css'
 
 function DonatePage(){
     return(
         // Requires Header, Image, Footer
         <div className='Donate'>
-            <div className='Top-Container'>
+            <div className='Top'>
+                <div className='Container'>
+                    <h1>Transform lives with the gift of affordable housing and provide shelter for those in need.</h1>
+                    <OrangeButton text="Donate"></OrangeButton>
+                </div>
             </div>
-            <div className='Donors-Container Container'>
+            <div className='Donors  Container'>
                 <div className='Gray Content Container'>
-                    <div className='Section-Content Content'>
+                    <div className='Section   Content'>
                         <div className='Section Left'>
                             <div className='Content'>
                                 <h1>01.<br></br>Vision</h1>
@@ -79,7 +84,7 @@ function DonatePage(){
                     </ul>
                 </div>
             </div>
-            <div className='Donation-Container Container'></div>
+            <div className='Donation  Container'></div>
             
             <Footer></Footer>
         </div>

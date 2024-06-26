@@ -5,40 +5,30 @@ import OrangeButton from '../Components/OrangeButton';
 import TopImage from '../Assets/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png';
 import Checkmark from '../Assets/Checkmark.svg';
 import HomeLayout from '../Assets/HomePageHome.png';
+import Profile from '../Assets/Profile.svg';
 import './HomePage.css'
 
 function Home(){
     return(
         <div className='Home'>
-            <div className='Top-Container'>
+            <div className='Top'>
                 <div className='Image'>
-                    <img src={TopImage} width="100%" height="100%" />
+                    {/* Content */}
+                    {/* <img src={TopImage} width="100%" height="100%" /> */}
                 </div>
             </div>
-            <div className='Assessment-Container Container'>
+            <div className='Assessment  Container'>
                 <div className='Content'>
                     <div className='Left'>
                         <h1>Build Your Tiny Home, <hr></hr> Redefine Your Space.</h1>
                         <ul>
                             <li>
-                                <img
-                                src={Checkmark}
-                                height="30"
-                                width="30" />
                                 Take a Free Assessment
                             </li>
                             <li>
-                                <img
-                                src={Checkmark}
-                                height="30"
-                                width="30" />
                                 Select the Floor Plan
                             </li>
                             <li>
-                                <img
-                                src={Checkmark}
-                                height="30"
-                                width="30" />
                                 Customize the Amenities
                             </li>
                         </ul>
@@ -54,7 +44,7 @@ function Home(){
                 </div>
                 
             </div>
-            <div className='Donate-Container Container'>
+            <div className='Donate Container'>
                 <div className='Content'>
                     <h1>Transform lives with the gift of affordable housing and provide shelter for those in need.</h1>
                     
@@ -62,7 +52,7 @@ function Home(){
                 </div>
                 
             </div>
-            <div className='Invest-Container Container'>
+            <div className='Invest  Container'>
                 <div className='Content'>
                     <div className='Left'></div>
                     <div className='Right'>
@@ -77,17 +67,18 @@ function Home(){
                 </div>
                 
             </div>
-            <div className='Contact-Container Container'>
+            <div className='Contact  Container'>
                 <h1>The Casita design was also awarded the "People's Choice" award in the Tucson Casita competition.</h1>
             </div>
-            <div className='Quote-Container Container'>
-                <div className='Quote-Content Content'>
-                    <p className='Quote'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis. Nunc vel pellentesque est. Curabitur at odio sit amet libero vulputate efficitur ac nec justo. 
+            <div className='Video '>
+                <div className='Quote   Content'>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis. Nunc vel pellentesque est. Curabitur at odio sit amet libero vulputate efficitur ac nec justo. 
                         Nulla vitae mauris quam. Nulla quam massa, faucibus id pretium ac, mattis eu velit. Donec sed risus a lacus fringilla finibus.
                     </p>
                     <div className='Profile'>
                         <div className='Image'>
-
+                            <img src={Profile} height="61" width="61" />
                         </div>
                         <div className='Person'>
                             <p className='Name'>Harry Wilson</p>
@@ -95,8 +86,8 @@ function Home(){
                         </div>
                     </div>
                 </div>
-                <div className='Video'>
-                    VIDEO
+                <div>
+                    <iframe width="590" height="100%" src="https://www.youtube.com/embed/oCwdsBSSGsU?si=S5t1ELvgLm7T9_m_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
             
