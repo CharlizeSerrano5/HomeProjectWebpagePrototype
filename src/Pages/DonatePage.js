@@ -51,20 +51,20 @@ function DonatePage(){
                     justifyContent="center"
                     alignItems="stretch"
                     >
-                        <Grid item xs={3} zeroMinWidth>
+                        <Grid item xs={3} zeroMinWidth className='Section'>
                             <h1>01.<br></br>Vision</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
                             </p>
                         </Grid>
                         
-                        <Grid item xs={3} zeroMinWidth>
+                        <Grid item xs={3} zeroMinWidth className='Section'>
                             <h1>02.<br></br>Cause</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
                             </p>
                         </Grid>
-                        <Grid item xs={3} zeroMinWidth>
+                        <Grid item xs={3} zeroMinWidth className='Section'>
                             <h1>03.<br></br>Benefit</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
@@ -85,7 +85,7 @@ function DonatePage(){
                     </ul>
                 </div>
             </div>
-            <div className='Donation  Container'>
+            <div className='Donation Container'>
                 <Contact></Contact>
             </div>
             <Footer></Footer>

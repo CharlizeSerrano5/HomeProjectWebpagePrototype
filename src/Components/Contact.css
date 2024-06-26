@@ -16,6 +16,7 @@ input{
     border-width: 1px;
     border-color: #E6E6E6;
     padding: 20px;
+    width: 318 px
 }
 
 select{
@@ -24,6 +25,7 @@ select{
     border-width: 1px;
     border-color: #E6E6E6;
     padding: 20px;
+    width: 318px;
 }
 
 .Email{

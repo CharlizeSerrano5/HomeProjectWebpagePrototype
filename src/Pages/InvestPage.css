@@ -35,10 +35,18 @@
 }
 
 .Invest>.Investor {
+    background-color: rgba(244, 81, 30, 0.07);
+}
+
+.Invest>.Investor>.Content {
     display: flex;
 }
 
 .Invest>.Investor >.Content>.Right{
     max-width: 70%;
-    background-color: pink;
+    /* background-color: pink; */
+}
+
+.Invest>.Investor >.Content>.Right >.Quote{
+    font-size: 21px;
 }

@@ -12,6 +12,7 @@ h1{
   font-size: 40px;
   margin: 0;
   color: #132F37;
+  margin-bottom: 20px;
 }
 
 p{
@@ -27,10 +28,14 @@ li{
   list-style-image: url('Assets/Checkmark.svg');
   vertical-align: center;
   font-weight: 700;
-
+  margin-top: 30px;
 }
 
 Link{
+  text-decoration: none;
+}
+
+Grid{
   text-decoration: none;
 }
 
@@ -62,7 +67,8 @@ Link{
 
 .Top{
   display: flex;
-  background-image: url("./Assets/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png");
+  background-image: linear-gradient(230deg, 
+  rgba(0,0,0,0.01), rgba(0,0,0,0.51)),url("./Assets/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png");
   min-height: 650px;
   min-width: 1440px;
   padding: auto;
@@ -81,4 +87,14 @@ Link{
 
 .Image{
   color: white;
+}
+
+.Image h1{
+  color: white;   
+}
+
+.Person>p{
+  font-size: 16px;
+  margin: 0px;
+  min-width: 183px;
 }

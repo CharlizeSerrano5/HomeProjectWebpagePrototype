@@ -23,3 +23,12 @@
 .Donors >.Content>ul{
     text-align: left;
 }
+
+.Donation{
+    background-image: url("../Assets/DonateContactBG.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-width: 1440px;
+    min-height: 1187px;
+    color: white;
+}

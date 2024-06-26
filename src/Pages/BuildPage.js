@@ -106,7 +106,7 @@ function BuildPage(){
                     </div>
                 </div>
             </div>
-            <div className='Contact  Container'>
+            <div className='Contact Container Image'>
                 <h1>Available In The Vibrant Heart Of Tuscan, Arizona!</h1>
                 <Contact></Contact>
             </div>

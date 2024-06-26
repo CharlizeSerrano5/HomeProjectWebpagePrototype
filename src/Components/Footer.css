@@ -10,7 +10,17 @@
     /* background-color: blue; */
     display: flex;
     justify-content: center;
+    
     font-size: 14px;
+    
+}
+
+.Footer>.Bottom>.Left{
+    width: 70%
+}
+
+.Footer>.Bottom>.Right{
+    text-align: right;
 }
 
 .Footer-UI{
@@ -26,9 +36,9 @@
     width: 50%;
 }
 
-.Footer-Pages{
-    /* background-color: pink; */
-}
+/* .Footer-Pages{
+    background-color: pink;
+} */
 
 
 
@@ -45,4 +55,28 @@
 
 .Bottom>.Copyright{
     color: #0A142F;
+}
+
+.Icons{
+    color: #F4511E;
+}
+
+input{
+    width: 318px;
+}
+
+select
+{
+    width: 318px;
+}
+
+.Social-Media{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Social-Media>.Text{
+    /* min-width: 200 */
+    /* background-color: pink; */
+    width: 20%;
 }

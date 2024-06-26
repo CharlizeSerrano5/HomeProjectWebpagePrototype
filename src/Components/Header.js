@@ -24,7 +24,9 @@ function Header(){
                     container spacing={{ xs: 2, md: 3 }}
                     direction="row"
                     justifyContent="center"
+                    place-items="center"
                     alignItems="stretch"
+                    className='GridPages'
                     >
                         <Grid item xs={1.5} zeroMinWidth>
                             <p><Link to='/Home'>Home</Link></p>

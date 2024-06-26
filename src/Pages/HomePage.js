@@ -53,8 +53,8 @@ function Home(){
                 </div>
                 
             </div>
-            <div className='Invest  Container'>
-                <div className='Content'>
+            <div className='Invest Container'>
+                <div className='Content Container'>
                     <div className='Left'></div>
                     <div className='Right'>
                         <h1>Secure your tomorrow with rewarding investments in our visionary plan!</h1>
@@ -73,7 +73,7 @@ function Home(){
                 <h1>The Casita design was also awarded the "People's Choice" award in the Tucson Casita competition.</h1>
             </div>
             <div className='Video '>
-                <div className='Quote Content'>
+                <div className='Quote Content Container'>
                     <p className='Text'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis. Nunc vel pellentesque est. Curabitur at odio sit amet libero vulputate efficitur ac nec justo. 
                         Nulla vitae mauris quam. Nulla quam massa, faucibus id pretium ac, mattis eu velit. Donec sed risus a lacus fringilla finibus.
@@ -89,7 +89,7 @@ function Home(){
                     </div>
                 </div>
                 <div>
-                    <iframe width="590" height="100%" src="https://www.youtube.com/embed/oCwdsBSSGsU?si=S5t1ELvgLm7T9_m_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="590" height="100%" src="https://www.youtube.com/embed/oCwdsBSSGsU?si=S5t1ELvgLm7T9_m_" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
             </div>
             

@@ -82,9 +82,10 @@ function InvestPage(){
                             Nunc vel pellentesque est. Curabitur at odio sit amet libero vulputate efficitur ac nec justo. Nulla vitae mauris quam. Nulla quam massa, 
                             faucibus id pretium ac, mattis eu velit. Donec sed risus a lacus fringilla finibus.
                         </p>
-                        
-                        <p className='Name'>Harry Wilson</p>
-                        <p>Investor</p>
+                        <div className='Person'>
+                            <p className='Name'>Harry Wilson</p>
+                            <p>Investor</p>
+                        </div>
                     </div>
                 </div>
             </div>

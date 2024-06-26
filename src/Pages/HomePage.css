@@ -1,12 +1,22 @@
 .Home> .Assessment {
     /* border-style: solid; */
     background-color: white;
-    height: 801px;
+    /* height: 801px; */
 
 }
-.Home> .Assessment {
-    /* display: flex; */
+/* .Home> .Assessment {
+    display: flex;
     justify-content: center;
+} */
+
+.Home> .Assessment >.Content>.Left>h1{
+    margin-bottom: 70px;
+    
+}
+
+.Home> .Assessment >.Content>.Left>h1>hr{
+    max-width: 336px;
+    text-align: left;
 }
 
 .Home> .Assessment  > .Content{
@@ -45,9 +55,9 @@
     min-width: 854px;
 }
 
-.Home> .Donate >.Content>.OrangeButton{
+/* .Home> .Donate >.Content>.OrangeButton{
     margin: 50px;
-}
+} */
 /* 
 .Home> .Donate >.Content{
     margin: auto;
@@ -57,7 +67,7 @@
     display: flex;
     justify-content: center;
     /* padding: 50px; */
-    height: 954px;
+    max-height: 954px;
     background-color: #F2F2F1;
     text-align: left;
 }
@@ -93,10 +103,4 @@
 
 .Home>.Video >.Quote >.Profile>.Image{
     margin-right: 10px;
-}
-
-.Home>.Video >.Quote >.Profile>.Person>p{
-    font-size: 16px;
-    margin: 0px;
-    min-width: 183px;
 }

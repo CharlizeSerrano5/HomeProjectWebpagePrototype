@@ -10,7 +10,11 @@
 }
 
 .Build > .Options > .Image >.Content{
-    
+    /* https://stackoverflow.com/questions/8403882/css-text-align-bottom-of-container */
+    position: relative;
+    top: 100%;
+    transform: translateY(-100%);
+    display: block;   
 }
 
 .Build > .Options > .Bottom-Text >.Note{
@@ -33,7 +37,7 @@
 
 .Build>.Testing >.Content >.Right{
     width: 50%;
-    /* text-align: left; */
+    text-align: right;
 }
 
 .Build>.Benefits>.Content{
@@ -41,9 +45,14 @@
 }
 
 .Build>.Contact{
-    background-image: url("../Assets/BuildContactBG.png");
-    min-width: 1440px;
-    min-height: 1187px;
+    background-image: linear-gradient(230deg, 
+    rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url("../Assets/BuildContactBG.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* min-width: 1440px; */
+    /* min-width: 100%; */
+    max-width: 100%;
+    max-height: 1187px;
     color: white;
 
 }
