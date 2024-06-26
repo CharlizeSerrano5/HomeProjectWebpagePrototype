@@ -6,6 +6,7 @@ import TopImage from '../Assets/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.
 import Checkmark from '../Assets/Checkmark.svg';
 import HomeLayout from '../Assets/HomePageHome.png';
 import Profile from '../Assets/Profile.svg';
+import Contact from '../Components/Contact';
 import './HomePage.css'
 
 function Home(){
@@ -68,11 +69,12 @@ function Home(){
                 
             </div>
             <div className='Contact  Container'>
+                <Contact/>
                 <h1>The Casita design was also awarded the "People's Choice" award in the Tucson Casita competition.</h1>
             </div>
             <div className='Video '>
-                <div className='Quote   Content'>
-                    <p>
+                <div className='Quote Content'>
+                    <p className='Text'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis. Nunc vel pellentesque est. Curabitur at odio sit amet libero vulputate efficitur ac nec justo. 
                         Nulla vitae mauris quam. Nulla quam massa, faucibus id pretium ac, mattis eu velit. Donec sed risus a lacus fringilla finibus.
                     </p>
@@ -82,7 +84,7 @@ function Home(){
                         </div>
                         <div className='Person'>
                             <p className='Name'>Harry Wilson</p>
-                            <p className='Title'>Property Owner</p>
+                            <p className='Job-Title'>Property Owner</p>
                         </div>
                     </div>
                 </div>

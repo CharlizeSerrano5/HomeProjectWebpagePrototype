@@ -39,3 +39,11 @@
 .Build>.Benefits>.Content{
     display: flex;
 }
+
+.Build>.Contact{
+    background-image: url("../Assets/BuildContactBG.png");
+    min-width: 1440px;
+    min-height: 1187px;
+    color: white;
+
+}

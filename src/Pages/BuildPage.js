@@ -4,7 +4,10 @@ import OrangeButton from '../Components/OrangeButton';
 import Footer from '../Components/Footer';
 import { Grid } from '@mui/material';
 import HomeBenefits from '../Assets/BuildHomeBenefits.png'
+import TestingImage from '../Assets/TestingImage.png'
+
 import './BuildPage.css';
+import Contact from '../Components/Contact';
 
 function BuildPage(){
     return(
@@ -99,12 +102,13 @@ function BuildPage(){
                         <OrangeButton text="Contact Us"></OrangeButton>
                     </div>
                     <div className='Right'>
-
+                        <img src={TestingImage} height="657" width="638" />
                     </div>
                 </div>
             </div>
             <div className='Contact  Container'>
-                <h1>Available in the vibrant heart of Tuscan, Arizona!</h1>
+                <h1>Available In The Vibrant Heart Of Tuscan, Arizona!</h1>
+                <Contact></Contact>
             </div>
             <Footer></Footer>
         </div>

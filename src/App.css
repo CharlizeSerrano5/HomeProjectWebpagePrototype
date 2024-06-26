@@ -1,15 +1,22 @@
 .App {
   text-align: center;
   font-size: 26px;
+
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1{
   font-size: 40px;
   margin: 0;
+  color: #132F37;
 }
 
 p{
   font-size: 18px;
+  /* margin: 0; */
 }
 
 ul{
@@ -19,6 +26,7 @@ ul{
 li{
   list-style-image: url('Assets/Checkmark.svg');
   vertical-align: center;
+  font-weight: 700;
 
 }
 
@@ -36,6 +44,7 @@ Link{
 
 .Container{
   padding: 50px;
+  
 }
 
 .Left{
@@ -65,6 +74,9 @@ Link{
   vertical-align: center;
   height: 50%;
   margin: auto;
+}
+.Top>.Container>h1{
+  color: white;
 }
 
 .Image{

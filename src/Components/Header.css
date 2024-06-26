@@ -12,7 +12,8 @@
 }
 
 .Header>.Header  {
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: right;
     /* background-color: red; */
@@ -26,18 +27,20 @@
     width: 50%;
 
 }
-.Header>.Header  >Grid{
+.Header>.Header  >.Grid{
     /* display: inline-block; */
-    /* background-color: pink; */
+    background-color: pink;
     text-decoration: none;
     margin: 0;
     min-width: 450px;
 
 }
+
 .Header>.Header  >.Left{
     /* background-color: red; */
     width: 25%;
     text-align: center;
+    margin: auto;
 }
 
 .Header>.Header  >.Pages>li{
@@ -52,6 +55,8 @@
     text-align: center;
     /* background-color: blue; */
     display: inline-block;
+    margin: auto;
+
 }
 
 .Header>.Header  >.Right>.OrangeButton{

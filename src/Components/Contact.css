@@ -1,0 +1,36 @@
+.Form{
+    /* border-style:solid; */
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+    border-color: gray;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-height: 970px;
+    max-width: 1130px;
+}
+
+input{
+    background-color: #F9F9F9;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E6E6E6;
+    padding: 20px;
+}
+
+select{
+    background-color: #F9F9F9;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E6E6E6;
+    padding: 20px;
+}
+
+.Email{
+    width: 661px;
+}
+
+.Comments{
+    width: 1004px;
+    height: 151px;
+}

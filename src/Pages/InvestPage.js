@@ -4,6 +4,7 @@ import OrangeButton from '../Components/OrangeButton';
 import Footer from '../Components/Footer';
 import Profile from '../Assets/Profile.svg'
 import './InvestPage.css'
+import Contact from '../Components/Contact';
 
 function InvestPage(){
     return(
@@ -89,8 +90,10 @@ function InvestPage(){
             </div>
             <div className='Assistance  Container'>
                 <div className='Content'>
-                    <h2>Need assistance with designing or planning the shed of your dreams? Fill out this form and one of our experts will be in touch with you shortly to set up a complimentary phone consultation.
+                    <h2>
+                        Need assistance with designing or planning the shed of your dreams? Fill out this form and one of our experts will be in touch with you shortly to set up a complimentary phone consultation.
                     </h2>
+                    <Contact></Contact>
                 </div>
             </div>
 

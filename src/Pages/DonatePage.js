@@ -4,6 +4,7 @@ import Footer from '../Components/Footer';
 import { Item,Grid } from '@mui/material';
 import OrangeButton from '../Components/OrangeButton';
 import './DonatePage.css'
+import Contact from '../Components/Contact';
 
 function DonatePage(){
     return(
@@ -84,8 +85,9 @@ function DonatePage(){
                     </ul>
                 </div>
             </div>
-            <div className='Donation  Container'></div>
-            
+            <div className='Donation  Container'>
+                <Contact></Contact>
+            </div>
             <Footer></Footer>
         </div>
     )

@@ -40,6 +40,7 @@
 
 .Footer-UI>.Bottom{
     min-width: 1074px;
+    display: flex;
 }
 
 .Bottom>.Copyright{
