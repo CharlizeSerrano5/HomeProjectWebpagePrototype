@@ -8,7 +8,6 @@ function DonatePage(){
         // Requires Header, Image, Footer
         <div className='Donate'>
             <div className='Top-Container'>
-                <Header></Header>
             </div>
             <div className='Donors-Container Container'>
                 <div className='Gray Content Container'>

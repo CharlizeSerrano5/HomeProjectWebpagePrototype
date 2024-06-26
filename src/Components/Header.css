@@ -8,6 +8,8 @@
     display: inline-block;
     justify-content: center;
     text-align: center;
+    max-height: 149px;
+    
 }
 
 .Header>.Header-Content{
@@ -34,7 +36,8 @@
 .Header>.Header-Content>.Pages>li{
     /* background-color: yellow; */
     display: inline-block;
-    margin-right: 100px;
+    /* margin-right: 100px; */
+
 }
 
 .Header>.Header-Content>.Right{

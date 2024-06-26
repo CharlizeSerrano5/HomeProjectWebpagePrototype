@@ -9,15 +9,19 @@ function Footer(){
                         Logo
                     </div>
                     <div className='Right'>
+                        <div></div>
                         345 Faulconer Drive, Suite 4 • Charlottesville, CA, 12345
                         (123) 456-7890
                         (123) 456-7890
-                        Social Media
+                        <div className='Social-Media'>Social Media</div> 
+                        
+                        
                     </div>
                 </div>
                 
                 <div className='Bottom'>
                     <ul className='Footer-Pages Footer'>
+                        <hr></hr>
                         <li>ABOUT US</li>
                         <li>CONTACT US</li>
                         <li>PRIVACY POLICY</li>

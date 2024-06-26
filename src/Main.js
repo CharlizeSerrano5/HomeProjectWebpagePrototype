@@ -9,8 +9,8 @@ function Main(){
     // Create a Router that will maintain all of the pages to direct to
     return(
         <div>
-            {/* <Header></Header>, */}
             <BrowserRouter>
+                <Header />
                 <Routes> 
                     <Route path="/" element={<Home></Home>}/>
                     <Route path="/Home" element={<Home></Home>}/>

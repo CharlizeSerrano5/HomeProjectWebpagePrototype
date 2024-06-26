@@ -9,7 +9,6 @@ function BuildPage(){
         // Requires Header, Image, Footer
         <div className='Build'>
             <div className='Top-Container'>
-                <Header></Header>
             </div>
             <div className='Benefits-Container Container'>
                 <div className='Content'>

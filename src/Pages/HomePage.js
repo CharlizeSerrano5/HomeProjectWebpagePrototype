@@ -9,7 +9,6 @@ function Home(){
     return(
         <div className='Home'>
             <div className='Top-Container'>
-                <Header></Header>
                 <div className='Image'>
                     <img src={TopImage} width="100%" height="100%" />
                 </div>
@@ -17,7 +16,7 @@ function Home(){
             <div className='Assessment-Container Container'>
                 <div className='Content'>
                     <div className='Left'>
-                        <h1>Build your tiny home, <br></br> Redefine your space.</h1>
+                        <h1>Build Your Tiny Home, <hr></hr> Redefine Your Space.</h1>
                         <ul>
                             <li>Take a Free Assessment</li>
                             <li>Select the Floor Plan</li>

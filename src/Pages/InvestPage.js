@@ -9,7 +9,6 @@ function InvestPage(){
         // Requires Header, Image, Footer
         <div className='Invest'>
             <div className='Top-Container'>
-                <Header></Header>
             </div>
             <div className='Why-Container Container'>
                 <div className='Content'>

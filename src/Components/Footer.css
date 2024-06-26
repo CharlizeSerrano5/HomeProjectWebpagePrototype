@@ -2,6 +2,10 @@
     font-size: 14px;
 }
 
+.Footer.p{
+    font-size: 14px;
+}
+
 .Footer>.Bottom{
     /* background-color: blue; */
     display: flex;
@@ -32,6 +36,10 @@
     display: inline-block;
     /* background-color: yellow; */
     margin-right: 20px;    
+}
+
+.Footer-UI>.Bottom{
+    min-width: 1074px;
 }
 
 .Bottom>.Copyright{
