@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Components/Header'
 import Footer from '../Components/Footer';
+import { Item,Grid } from '@mui/material';
 import './DonatePage.css'
 
 function DonatePage(){
@@ -37,7 +38,34 @@ function DonatePage(){
                             </div>
                         </div>
                     </div>
-                    
+
+                    <Grid
+                    container spacing={3}
+                    direction="row"
+                    justifyContent="center"
+                    alignItems="stretch"
+                    >
+                        <Grid item xs={3} zeroMinWidth>
+                            <h1>01.<br></br>Vision</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
+                            </p>
+                        </Grid>
+                        
+                        <Grid item xs={3} zeroMinWidth>
+                            <h1>02.<br></br>Cause</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
+                            </p>
+                        </Grid>
+                        <Grid item xs={3} zeroMinWidth>
+                            <h1>03.<br></br>Benefit</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
+                            </p>
+                        </Grid>
+                    </Grid>
+                                        
                 </div>
                 <div className='Gray Content Container'>
                     <h1>Donation Privileges</h1>

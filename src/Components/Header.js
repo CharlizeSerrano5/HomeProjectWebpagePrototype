@@ -2,13 +2,17 @@ import React from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
 import OrangeButton from './OrangeButton';
+import CompanyLogo from '../Assets/CompanyLogo.svg';
 
 function Header(){
     return(
         <div className='Header'>
             <div className='Header-Content'>
                 <div className='Left'>
-                    Logo
+                    <img
+                        src={CompanyLogo}
+                        height="79"
+                        width="90" />
                 </div>
                 <ul className='Pages'>
                     <li><p><Link to='/Home'>Home</Link></p></li>

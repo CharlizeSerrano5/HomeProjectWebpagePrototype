@@ -1,12 +1,16 @@
 import React from 'react';
 import './Footer.css'
+import CompanyLogo from '../Assets/CompanyLogo.svg'
 function Footer(){
     return (
         <div className='Footer Container'>
             <div className='Footer-UI Content'>  
                 <div className='Middle Content'>
                     <div className='Left'>
-                        Logo
+                        <img
+                        src={CompanyLogo}
+                        height="79"
+                        width="90" />
                     </div>
                     <div className='Right'>
                         <div></div>

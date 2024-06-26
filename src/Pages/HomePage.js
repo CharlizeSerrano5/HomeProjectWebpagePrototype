@@ -3,6 +3,8 @@ import Header from '../Components/Header'
 import Footer from '../Components/Footer'
 import OrangeButton from '../Components/OrangeButton';
 import TopImage from '../Assets/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png';
+import Checkmark from '../Assets/Checkmark.svg';
+import HomeLayout from '../Assets/HomePageHome.png';
 import './HomePage.css'
 
 function Home(){
@@ -18,14 +20,37 @@ function Home(){
                     <div className='Left'>
                         <h1>Build Your Tiny Home, <hr></hr> Redefine Your Space.</h1>
                         <ul>
-                            <li>Take a Free Assessment</li>
-                            <li>Select the Floor Plan</li>
-                            <li>Customize the Amenities</li>
+                            <li>
+                                <img
+                                src={Checkmark}
+                                height="30"
+                                width="30" />
+                                Take a Free Assessment
+                            </li>
+                            <li>
+                                <img
+                                src={Checkmark}
+                                height="30"
+                                width="30" />
+                                Select the Floor Plan
+                            </li>
+                            <li>
+                                <img
+                                src={Checkmark}
+                                height="30"
+                                width="30" />
+                                Customize the Amenities
+                            </li>
                         </ul>
                         <OrangeButton text='Start Building'></OrangeButton>
                         <p className='Note'>We've got you covered from permits to installation. Take a Free Assessment to get your quick estimate now!</p>
                     </div>
-                    <div className='Right'></div>   
+                    <div className='Right'>
+                        <img
+                        src={HomeLayout}
+                        height="658"
+                        width="561" />    
+                    </div>   
                 </div>
                 
             </div>

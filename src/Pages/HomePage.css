@@ -4,15 +4,26 @@
     height: 801px;
 }
 .Home> .Assessment-Container{
-    display: flex;
+    display: block;
     text-align: left;
+}
+
+.Home> .Assessment-Container > .Content{
+    width: 1297px;
 }
 .Home> .Assessment-Container > .Content>.Left{
     align-content: left;
     width: 50%;
+    min-width: 128px;
 }
 .Home> .Assessment-Container>.Content> .Left>ul{
     font-size: 26px;
+}
+
+.Home> .Assessment-Container > .Content>.Right{
+    align-content: right;
+    width: 50%;
+    min-width: 128px;
 }
 
 .Home> .Donate-Container{
