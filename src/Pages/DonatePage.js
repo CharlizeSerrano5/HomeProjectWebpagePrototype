@@ -16,9 +16,9 @@ function DonatePage(){
                     <OrangeButton text="Donate"></OrangeButton>
                 </div>
             </div>
-            <div className='Donors  Container'>
+            <div className='Donors Content Container'>
                 <div className='Gray Content Container'>
-                    <div className='Section   Content'>
+                    <div className='Section Content '>
                         <div className='Section Left'>
                             <div className='Content'>
                                 <h1>01.<br></br>Vision</h1>
@@ -50,22 +50,36 @@ function DonatePage(){
                     direction="row"
                     justifyContent="center"
                     alignItems="stretch"
+                    textAlign="left"
+                    className='Visions'
                     >
-                        <Grid item xs={3} zeroMinWidth className='Section'>
-                            <h1>01.<br></br>Vision</h1>
+                        <Grid item xs={3.5} zeroMinWidth className='Section Container'>
+                            <div className='Title'>
+                                <h1>01.</h1>
+                                <br></br>
+                                <h1>Vision</h1>
+                            </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
                             </p>
                         </Grid>
                         
-                        <Grid item xs={3} zeroMinWidth className='Section'>
-                            <h1>02.<br></br>Cause</h1>
+                        <Grid item xs={3.5} zeroMinWidth className='Section Container'>
+                            <div className='Title'>
+                                <h1>02.</h1>
+                                <br></br>
+                                <h1>Cause</h1>
+                            </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
                             </p>
                         </Grid>
-                        <Grid item xs={3} zeroMinWidth className='Section'>
-                            <h1>03.<br></br>Benefit</h1>
+                        <Grid item xs={3.5} zeroMinWidth className='Section Container'>
+                            <div className='Title'>
+                                <h1>03.</h1>
+                                <br></br>
+                                <h1>Benefits</h1>
+                            </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
                             </p>

@@ -49,6 +49,7 @@ Grid{
 
 .Container{
   padding: 50px;
+  min-width: 1440px;
   
 }
 
@@ -69,6 +70,8 @@ Grid{
   display: flex;
   background-image: linear-gradient(230deg, 
   rgba(0,0,0,0.01), rgba(0,0,0,0.51)),url("./Assets/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
   min-height: 650px;
   min-width: 1440px;
   padding: auto;

@@ -20,7 +20,7 @@
 }
 
 .Home> .Assessment  > .Content{
-    width: 1300px;
+    /* width: 1300px; */
     display: flex;
     margin: auto;
 

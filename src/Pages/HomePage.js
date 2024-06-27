@@ -48,7 +48,6 @@ function Home(){
             <div className='Donate Container'>
                 <div className='Content'>
                     <h1>Transform lives with the gift of affordable housing and provide shelter for those in need.</h1>
-                    
                     <OrangeButton text="Donate"></OrangeButton>
                 </div>
                 

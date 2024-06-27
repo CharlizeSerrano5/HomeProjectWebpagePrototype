@@ -2,9 +2,9 @@
 .Header{
     width: 100%;
     background-color: white;
-    
+    min-width: 1440px;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     justify-content: center;
     text-align: center;
     max-height: 149px;

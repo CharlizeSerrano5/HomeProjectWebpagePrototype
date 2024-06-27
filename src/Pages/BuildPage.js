@@ -53,7 +53,6 @@ function BuildPage(){
                             <Grid item xs={4} zeroMinWidth>
                                 At Affordable price!
                             </Grid>
-                            
                             <Grid item xs={4} zeroMinWidth>
                                 Choose your preferred floor plan
                             </Grid>
