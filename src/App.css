@@ -101,3 +101,15 @@ Grid{
   margin: 0px;
   min-width: 183px;
 }
+
+.Square-Icon{
+  display: block;
+  justify-content: center;
+  border-style: solid;
+  max-width: auto;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+}
+

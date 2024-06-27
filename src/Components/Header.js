@@ -12,14 +12,6 @@ function Header(){
                 <div className='Left'>
                     <img src={CompanyLogo} height="79" width="90" />
                 </div>
-                {/* <ul className='Pages'>
-                    <li><p><Link to='/Home'>Home</Link></p></li>
-                    <li><p><Link to='/Build'>Build</Link></p></li>
-                    <li><p><Link to='/Invest'>Invest</Link></p></li>
-                    <li><p><Link to='/Donate'>Donate</Link></p></li>
-                    <li><p><a href="#">About</a></p></li>
-                </ul> */}
-
                     <Grid 
                     container spacing={{ xs: 2, md: 3 }}
                     direction="row"

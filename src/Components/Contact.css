@@ -3,11 +3,11 @@
     box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
     border-color: gray;
     background-color: white;
-    margin: auto;
+    /* margin: auto; */
     margin-top: 50px;
     margin-bottom: 50px;
     min-height: 970px;
-    max-width: 1130px;
+    /* max-width: 1130px; */
 }
 
 input{
@@ -16,7 +16,7 @@ input{
     border-width: 1px;
     border-color: #E6E6E6;
     padding: 20px;
-    width: 318 px
+    width: 318px;
 }
 
 select{
@@ -35,4 +35,8 @@ select{
 .Comments{
     width: 1004px;
     height: 151px;
+}
+
+.GridForm{
+    width: 50%
 }

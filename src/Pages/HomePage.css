@@ -1,17 +1,17 @@
+@media (width <= 1700px) {
+
+}
 .Home> .Assessment {
     /* border-style: solid; */
     background-color: white;
-    /* height: 801px; */
-
-}
-/* .Home> .Assessment {
     display: flex;
-    justify-content: center;
-} */
+    /* height: 801px; */
+    /* display: flex;
+    justify-content: center; */
+}
 
 .Home> .Assessment >.Content>.Left>h1{
     margin-bottom: 70px;
-    
 }
 
 .Home> .Assessment >.Content>.Left>h1>hr{
@@ -22,7 +22,7 @@
 .Home> .Assessment  > .Content{
     /* width: 1300px; */
     display: flex;
-    margin: auto;
+    /* margin: auto; */
 
 }
 .Home> .Assessment  > .Content>.Left{
@@ -91,6 +91,10 @@
     min-height: 596px;
 }
 
+.Home>.Video >.Quote {
+    /* max-width:635px; */
+}
+
 .Home>.Video >.Quote  >.Text{
     font-size: 21px;
 }
@@ -103,4 +107,9 @@
 
 .Home>.Video >.Quote >.Profile>.Image{
     margin-right: 10px;
+}
+
+
+@media (width <= 380px) {
+    
 }

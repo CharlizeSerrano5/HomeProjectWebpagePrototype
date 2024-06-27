@@ -1,4 +1,6 @@
-
+@media (width <= 380px) {
+    
+}
 .Header{
     width: 100%;
     background-color: white;

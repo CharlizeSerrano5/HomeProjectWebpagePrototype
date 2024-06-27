@@ -32,7 +32,7 @@ function Contact(){
                 direction="row"
                 justifyContent="left"
                 alignItems="stretch"
-                className='GridPages'
+                className='GridForm'
                 >
                     <Grid item xs={4.5} zeroMinWidth>
                         <input placeholder="Enter First Name"></input>

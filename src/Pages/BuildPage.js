@@ -5,6 +5,8 @@ import Footer from '../Components/Footer';
 import { Grid } from '@mui/material';
 import HomeBenefits from '../Assets/BuildHomeBenefits.png'
 import TestingImage from '../Assets/TestingImage.png'
+import AffordableIcon from '../Assets/AffordableIcon.svg'
+
 
 import './BuildPage.css';
 import Contact from '../Components/Contact';
@@ -51,22 +53,28 @@ function BuildPage(){
                         alignItems="stretch"
                         >
                             <Grid item xs={4} zeroMinWidth>
-                                At Affordable price!
+                                <img src={AffordableIcon} className='Square-Icon' height="37.5" width="37.5" />
+                                <h1>At Affordable price!</h1>
                             </Grid>
                             <Grid item xs={4} zeroMinWidth>
-                                Choose your preferred floor plan
+                                <img src={AffordableIcon}  className='Square-Icon' height="37.5" width="37.5" />
+                                <h1>Choose your preferred floor plan</h1>
                             </Grid>
                             <Grid item xs={4} zeroMinWidth>
-                                Secure your permit hassle-free!
+                                <img src={AffordableIcon}  className='Square-Icon' height="37.5" width="37.5" />
+                                <h1>Secure your permit hassle-free!</h1>
                             </Grid>
                             <Grid item xs={4} zeroMinWidth>
-                                Personalize Your Amenities!
+                                <img src={AffordableIcon}  className='Square-Icon' height="37.5" width="37.5" />
+                                <h1>Personalize Your Amenities!</h1>
                             </Grid>
                             <Grid item xs={4} zeroMinWidth>
-                                Build quickly as possible!
+                                <img src={AffordableIcon} className='Square-Icon'  height="37.5" width="37.5" />
+                                <h1>Build quickly as possible!</h1>
                             </Grid>
                             <Grid item xs={4} zeroMinWidth>
-                                Seamless installation guaranteed!
+                                <img src={AffordableIcon} className='Square-Icon' height="37.5" width="37.5" />
+                                <h1>Seamless installation guaranteed!</h1>
                             </Grid>
                         </Grid>
                     </div>
