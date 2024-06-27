@@ -4,10 +4,9 @@
     
 }
 
-/* .Donors >.Content>.Section  {
-    margin: 50px;
-    padding: 50px;
-} */
+.Donors >.Gray >.Grid{
+    margin: auto;
+}
 
 .Donors >.Content>.Section  >.Section{
     background-color: #FEF3EF;
@@ -38,8 +37,9 @@
     border-style: solid;
     border-width: 1px;
     border-color: rgba(222, 87, 65, 0.10);
-    min-width: 350px;
+    max-width: 350px;
     /* margin-bottom: 20px; */
+    
 }
 
 .Visions>.Section>.Title{
@@ -50,3 +50,4 @@
     /* background-color: pink; */
     margin-bottom: 5px;
 }
+

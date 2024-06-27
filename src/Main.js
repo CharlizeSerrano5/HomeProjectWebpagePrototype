@@ -5,6 +5,8 @@ import Build from './Pages/BuildPage'
 import Invest from './Pages/InvestPage'
 import Donate from './Pages/DonatePage'
 import Header from './Components/Header';
+import Footer from './Components/Footer';
+
 function Main(){
     // Create a Router that will maintain all of the pages to direct to
     return(
@@ -18,6 +20,7 @@ function Main(){
                     <Route path="/Invest" element={<Invest></Invest>}/>
                     <Route path="/Donate" element={<Donate></Donate>}/>
                 </Routes>
+                <Footer></Footer>
             </BrowserRouter>
         </div>
         

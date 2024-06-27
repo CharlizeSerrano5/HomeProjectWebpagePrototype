@@ -26,9 +26,25 @@ function Footer(){
                     </div>
                     <div className='Right'>
                         <div>
-                            <LocationOnIcon></LocationOnIcon>345 Faulconer Drive, Suite 4 • Charlottesville, CA, 12345
-                            <LocalPhoneIcon></LocalPhoneIcon>(123) 456-7890
-                            <PrintIcon></PrintIcon>(123) 456-7890
+
+                        <Grid 
+                            container spacing={1}
+                            direction="row"
+                            justifyContent="left"
+                            alignItems="stretch"
+                            
+                            >
+                                <Grid item xs={8} zeroMinWidth>
+                                    <LocationOnIcon className='Icons'></LocationOnIcon>345 Faulconer Drive, Suite 4 • Charlottesville, CA, 12345
+                                </Grid>
+                                
+                                <Grid item xs={5} zeroMinWidth>
+                                    <LocalPhoneIcon className='Icons'></LocalPhoneIcon>(123) 456-7890
+                                </Grid>
+                                <Grid item xs={5} zeroMinWidth>
+                                    <PrintIcon className='Icons'></PrintIcon>(123) 456-7890
+                                </Grid>
+                            </Grid>
                         </div>
                         
                         <div className='Social-Media'>
@@ -50,6 +66,7 @@ function Footer(){
                             justifyContent="left"
                             alignItems="stretch"
                             className='Icons'
+                            alignContent="center"
                             >
                                 <Grid item xs={0.5} zeroMinWidth>
                                     <FacebookIcon></FacebookIcon>

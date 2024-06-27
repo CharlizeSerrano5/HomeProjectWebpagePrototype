@@ -5,6 +5,7 @@ import Footer from '../Components/Footer';
 import Profile from '../Assets/Profile.svg'
 import './InvestPage.css'
 import Contact from '../Components/Contact';
+import { Grid } from '@mui/material';
 
 function InvestPage(){
     return(
@@ -18,7 +19,7 @@ function InvestPage(){
                 </div>
             </div>
             <div className='Why  Container'>
-                <div className='Content'>
+                {/* <div className='Content'>
                     <h1>Why Invest With Us?</h1>
                     <div className='Section '>
                         <div className='Section'>
@@ -43,7 +44,44 @@ function InvestPage(){
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> */}
+
+
+                <Grid
+                    container spacing={3}
+                    direction="row"
+                    justifyContent="center"
+                    alignItems="stretch"
+                    textAlign="left"
+                    className='Why'
+                    margin='auto'
+                    >
+                        <Grid item md={3.5} zeroMinWidth className='Section Container'>
+                            
+                            <h4>One global login</h4>
+                            <p>
+                                Skip the login nightmare for all your
+                                different accounts, instead, see
+                                everything from one login.
+                            </p>
+                        </Grid>
+                        
+                        <Grid item md={3.5} zeroMinWidth className='Section Container'>
+                            <h4>Real-time link</h4>
+                            <p>
+                                Go from delayed and inaccurate
+                                information to one, real time dashboard.
+                            </p>
+                            
+                        </Grid>
+                        <Grid item md={3.5} zeroMinWidth className='Section Container'>
+                            <h4>Reporting, solved</h4>
+                            <p>
+                                Easily create beautiful, custom reports on your balances, cash-flows and transactions.
+                            </p>
+                        </Grid>
+                    </Grid>
+                                        
             </div>
             <div className='Returns  Container'>
                 <div className='Content'>
@@ -97,8 +135,6 @@ function InvestPage(){
                     <Contact></Contact>
                 </div>
             </div>
-
-            <Footer></Footer>
         </div>
     )
 }

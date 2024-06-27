@@ -48,31 +48,31 @@ function BuildPage(){
                         </div> */}
 
                         <Grid 
-                        container spacing={12}
+                        container spacing={{sm: 20,xl:12}}
                         justifyContent="center"
                         alignItems="stretch"
                         >
-                            <Grid item xs={4} zeroMinWidth>
+                            <Grid item sm={4} xl={3} zeroMinWidth className='Square'>
                                 <img src={AffordableIcon} className='Square-Icon' height="37.5" width="37.5" />
                                 <h1>At Affordable price!</h1>
                             </Grid>
-                            <Grid item xs={4} zeroMinWidth>
+                            <Grid item sm={4} xl={3} zeroMinWidth className='Square'>
                                 <img src={AffordableIcon}  className='Square-Icon' height="37.5" width="37.5" />
                                 <h1>Choose your preferred floor plan</h1>
                             </Grid>
-                            <Grid item xs={4} zeroMinWidth>
+                            <Grid item sm={4} xl={3} zeroMinWidth className='Square'>
                                 <img src={AffordableIcon}  className='Square-Icon' height="37.5" width="37.5" />
                                 <h1>Secure your permit hassle-free!</h1>
                             </Grid>
-                            <Grid item xs={4} zeroMinWidth>
+                            <Grid item sm={4} xl={3} zeroMinWidth className='Square'>
                                 <img src={AffordableIcon}  className='Square-Icon' height="37.5" width="37.5" />
                                 <h1>Personalize Your Amenities!</h1>
                             </Grid>
-                            <Grid item xs={4} zeroMinWidth>
+                            <Grid item sm={4} xl={3} zeroMinWidth className='Square'>
                                 <img src={AffordableIcon} className='Square-Icon'  height="37.5" width="37.5" />
                                 <h1>Build quickly as possible!</h1>
                             </Grid>
-                            <Grid item xs={4} zeroMinWidth>
+                            <Grid item sm={4} xl={3} zeroMinWidth className='Square'>
                                 <img src={AffordableIcon} className='Square-Icon' height="37.5" width="37.5" />
                                 <h1>Seamless installation guaranteed!</h1>
                             </Grid>
@@ -117,7 +117,6 @@ function BuildPage(){
                 <h1>Available In The Vibrant Heart Of Tuscan, Arizona!</h1>
                 <Contact></Contact>
             </div>
-            <Footer></Footer>
         </div>
     )
 }

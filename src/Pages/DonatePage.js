@@ -6,6 +6,8 @@ import OrangeButton from '../Components/OrangeButton';
 import './DonatePage.css'
 import Contact from '../Components/Contact';
 
+import HomeIcon from '../Assets/HomeIcon.svg'
+
 function DonatePage(){
     return(
         // Requires Header, Image, Footer
@@ -17,8 +19,8 @@ function DonatePage(){
                 </div>
             </div>
             <div className='Donors Content Container'>
-                <div className='Gray Content Container'>
-                    <div className='Section Content '>
+                <div className='Gray Content'>
+                    {/* <div className='Section Content '>
                         <div className='Section Left'>
                             <div className='Content'>
                                 <h1>01.<br></br>Vision</h1>
@@ -43,7 +45,7 @@ function DonatePage(){
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     <Grid
                     container spacing={3}
@@ -51,7 +53,8 @@ function DonatePage(){
                     justifyContent="center"
                     alignItems="stretch"
                     textAlign="left"
-                    className='Visions'
+                    className='Visions Grid'
+                    margin='auto'
                     >
                         <Grid item xs={3.5} zeroMinWidth className='Section Container'>
                             <div className='Title'>
@@ -62,17 +65,24 @@ function DonatePage(){
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
                             </p>
+
                         </Grid>
                         
                         <Grid item xs={3.5} zeroMinWidth className='Section Container'>
-                            <div className='Title'>
-                                <h1>02.</h1>
-                                <br></br>
-                                <h1>Cause</h1>
+                            {/* <div > */}
+                                <div className='Title'>
+                                    <h1>02.</h1>
+                                    <br></br>
+                                    <h1>Cause</h1>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
+                                </p>
+                            {/* </div> */}
+                            <div>
+
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
-                            </p>
+                            
                         </Grid>
                         <Grid item xs={3.5} zeroMinWidth className='Section Container'>
                             <div className='Title'>
@@ -83,9 +93,40 @@ function DonatePage(){
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
                             </p>
+
                         </Grid>
                     </Grid>
-                                        
+
+
+                    <Grid
+                    container spacing={3}
+                    direction="row"
+                    justifyContent="center"
+                    alignItems="stretch"
+                    textAlign="center"
+                    className='Visions Bottom Grid'
+                    margin='auto'
+                    >
+                        <Grid item xs={3.5} zeroMinWidth className='Section Container'>
+                            <img src={HomeIcon} height="79" width="90" />
+                            <h1>10</h1>
+                            <h1>Years</h1>
+                        </Grid>
+                        
+                        <Grid item xs={3.5} zeroMinWidth className='Section Container'>
+                                <img src={HomeIcon} height="79" width="90"/>
+                                <h1>30</h1>
+                                <h1>Units</h1>
+                            
+                            
+                        </Grid>
+                        <Grid item xs={3.5} zeroMinWidth className='Section Container'>
+                            <img src={HomeIcon} height="79" width="90" />
+                            <h1>150</h1>
+                            <h1>Families Helped</h1>
+
+                        </Grid>
+                    </Grid>     
                 </div>
                 <div className='Gray Content Container'>
                     <h1>Donation Privileges</h1>
@@ -102,7 +143,6 @@ function DonatePage(){
             <div className='Donation Container'>
                 <Contact></Contact>
             </div>
-            <Footer></Footer>
         </div>
     )
 }

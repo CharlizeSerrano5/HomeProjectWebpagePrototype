@@ -10,6 +10,8 @@ import Contact from '../Components/Contact';
 import { Grid } from '@mui/material';
 import GridImage1 from '../Assets/GridImage1.png'
 import GridImage2 from '../Assets/GridImage2.png'
+import GridImage3 from '../Assets/GridImage3.png'
+import GridImage4 from '../Assets/GridImage4.png'
 
 // import Grid from '@mui/material';
 import './HomePage.css'
@@ -24,11 +26,12 @@ function Home(){
             </div>
             <div className='Assessment  Container'>
                     <Grid 
-                    container spacing={20}
+                    container spacing={{sm:10, xl:20}}
                     justifyContent="center"
                     alignItems="stretch"
+                    className='Assessment  Container'
                     >
-                        <Grid className='Left' item sm={4} xl={5} zeroMinWidth>
+                        <Grid className='Left' item sm={4} xl={10} zeroMinWidth>
                             <h1>Build Your Tiny Home, <hr></hr> Redefine Your Space.</h1>
                             <ul>
                                 <li>Take a Free Assessment</li>
@@ -38,7 +41,7 @@ function Home(){
                             <OrangeButton text='Start Building'></OrangeButton>
                             <p className='Note'>We've got you covered from permits to installation. Take a Free Assessment to get your quick estimate now!</p>
                         </Grid>
-                        <Grid item className='Right' sm={4} xl={4.5} zeroMinWidth>
+                        <Grid item className='Right' xl={{width: 561, height: 658}} zeroMinWidth>
                             <img
                             src={HomeLayout}
                             height="658"
@@ -79,37 +82,64 @@ function Home(){
                 
             </div>
             <div className='Invest Container'>
-                <div className='Content Container'>
-                    <div className='Left'>
-                        <Grid 
-                        container spacing={5}
+                {/* <div className='Content'> */}
+                    {/* <div <Grid 
+                        container spacing={3}
                         justifyContent="center"
                         alignItems="stretch"
-                        >
-                            <Grid className='Left' item sm={{ width: 250, height: 334 }} xl={{ width: 250, height: 334 }} zeroMinWidth>
-                                <img
-                                src={GridImage1}
-                                />       
+                        >className='Left'> */}
+                    {/* <Grid 
+                    container spacing={1}
+                    justifyContent="center"
+                    alignItems="stretch"
+                    className='Left'
+                    >
+                        <Grid item xl={2} zeroMinWidth> */}
+                        
+                            <Grid 
+                            container spacing={1}
+                            justifyContent="center"
+                            alignItems="stretch"
+                            maxWidth="700px"
+                            >
+                                <Grid item md={{ width: 250, height: 334 }} xl={{ width: 250, height: 334 }} zeroMinWidth>
+                                    <img
+                                    src={GridImage1}
+                                    >
+                                        </img>       
+                                </Grid>
+                                <Grid item md={{ width: 270, height: 270 }} xl={{ width: 270, height: 270 }} zeroMinWidth>
+                                    <img
+                                    src={GridImage2}
+                                    />   
+                                </Grid>
+                                <Grid item md={{ width: 212, height: 285 }} xl={{ width: 212, height: 285 }} zeroMinWidth>
+                                    <img
+                                    src={GridImage3}
+                                    />   
+                                </Grid>
+                                <Grid  item md={{ width: 338, height: 356 }} xl={{ width: 338, height: 356 }}zeroMinWidth>
+                                    <img
+                                    src={GridImage4}
+                                    
+                                    />       
+                                </Grid>
                             </Grid>
-                            <Grid item className='Right' sm={{ width: 270, height: 270 }} xl={{ width: 270, height: 270 }} zeroMinWidth>
-                                <img
-                                src={GridImage2}
-                                />   
-                            </Grid>
-                            <Grid item className='Right' sm={4} xl={4.5} zeroMinWidth>
-                                <img
-                                src={GridImage2}
-                                />   
-                            </Grid>
-                            <Grid className='Left' item sm={4} xl={5} zeroMinWidth>
-                                <img
-                                src={GridImage1}
-                                
-                                />       
-                            </Grid>
-                        </Grid>
+                        {/* </Grid> */}
+                        {/* <Grid item sm={10} zeroMinWidth> */}
+                            {/* <h1>Secure your tomorrow with rewarding investments in our visionary plan!</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  
+                                nec justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
+                            </p>
+                            <OrangeButton text="Invest"></OrangeButton> */}
+                        {/* </Grid> */}
 
-                    </div>
+                    {/* </Grid> */}
+                        
+
+                    {/* </div> */}
                     <div className='Right'>
                         <h1>Secure your tomorrow with rewarding investments in our visionary plan!</h1>
                         <p>
@@ -119,7 +149,7 @@ function Home(){
                         </p>
                         <OrangeButton text="Invest"></OrangeButton>
                     </div>
-                </div>
+                {/* </div> */}
                 
             </div>
             <div className='Contact  Container'>
@@ -180,7 +210,6 @@ function Home(){
                     </Grid>
              */}
 
-            <Footer></Footer>
         </div>
     )
 }

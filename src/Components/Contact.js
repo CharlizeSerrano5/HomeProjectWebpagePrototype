@@ -6,7 +6,7 @@ function Contact(){
     return(
         <div className="Form Container">
             <div className="Content">
-                <h1>Get In Touch</h1>
+                <h1 className='Title'>Get In Touch</h1>
 {/*                 
                 <input placeholder="Enter First Name"></input>
                 <input placeholder='Enter Last Name'></input>
@@ -33,33 +33,34 @@ function Contact(){
                 justifyContent="left"
                 alignItems="stretch"
                 className='GridForm'
+                maxWidth={10000}
                 >
-                    <Grid item xs={4.5} zeroMinWidth>
+                    <Grid item xl={{width: 318, height: 50}} zeroMinWidth>
                         <input placeholder="Enter First Name"></input>
                     </Grid>
                     
-                    <Grid item xs={4.5} zeroMinWidth>
+                    <Grid item xl={{width: 318, height: 50}}zeroMinWidth>
                         <input placeholder='Enter Last Name'></input>
                     </Grid>
-                    <Grid item xs={4.5} zeroMinWidth>
+                    <Grid item xl={{width: 318, height: 50}} zeroMinWidth>
                         <input placeholder='Enter Phone'></input>
                     </Grid>
-                    <Grid item xs={4} zeroMinWidth>
+                    <Grid item xl={{width: 318, height: 50}} zeroMinWidth>
                         <select placeholder='Enter City'>
                             <option>Select City</option>
                         </select>
                     </Grid>
-                    <Grid item xs={4} zeroMinWidth>
+                    <Grid item xl={{width: 318, height: 50}} zeroMinWidth>
                         <select placeholder='Enter State'>
                             <option>Select State</option>
                         </select>
                     </Grid>
-                    <Grid item xs={4} zeroMinWidth>
+                    <Grid item xl={{width: 318, height: 50}} zeroMinWidth>
                         <select placeholder='Enter Zip Code'>
                             <option>Select Zip Code</option>
                         </select>
                     </Grid>
-                    <Grid item xs={10} zeroMinWidth>
+                    <Grid item xs={{width: 661, height: 50}}  zeroMinWidth>
                        <input className="Email" placeholder='Enter Email'></input>
 
                     </Grid>

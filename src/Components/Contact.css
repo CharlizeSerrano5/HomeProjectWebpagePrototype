@@ -1,5 +1,6 @@
 .Form{
     /* border-style:solid; */
+    display: block;
     box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
     border-color: gray;
     background-color: white;
@@ -7,7 +8,12 @@
     margin-top: 50px;
     margin-bottom: 50px;
     min-height: 970px;
-    /* max-width: 1130px; */
+    max-width: 1130px;
+    width: 80%;
+}
+
+.Form>.Content>.Title{
+    color: #DE5741;  
 }
 
 input{
@@ -25,7 +31,7 @@ select{
     border-width: 1px;
     border-color: #E6E6E6;
     padding: 20px;
-    width: 318px;
+    min-width: 318px;
 }
 
 .Email{
