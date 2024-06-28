@@ -42,10 +42,6 @@
 }
 
 .Build>.Benefits>.Content{
-    
-}
-
-.Build>.Benefits>.Content{
     display: flex;
     align-items: center;
 }
@@ -57,7 +53,7 @@
     rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url("../Assets/BuildContactBG.png");
     background-repeat: no-repeat;
     object-fit: cover;
-    background-size: 100vw;
+    background-size: 100vw 100vh;
     /* min-width: 1440px; */
     /* min-width: 100%; */
     max-width: 100%;

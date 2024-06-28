@@ -33,67 +33,68 @@ function Contact({title, paragraphs}){
                     </select>
                     <input className="Comments" placeholder='Enter Comments'></input> */}
                     <Grid 
-                    container spacing={1}
+                    container spacing={2}
                     direction="row"
                     justifyContent="left"
                     alignItems="stretch"
                     className='GridForm'
+                    
                     >
-                        <Grid item xs={12} md={4} zeroMinWidth className='GridItem'>
+                        <Grid item xs={12} md={4} zeroMinWidth marginTop={1} className='GridItem'>
                             <h1>Enter First Name</h1>
                             <input placeholder="Enter First Name"></input>
                         </Grid>
                         
-                        <Grid item xs={12} md={4}zeroMinWidth className='GridItem'>
+                        <Grid item xs={12} md={4}zeroMinWidth marginTop={1}  className='GridItem'>
                             <h1>Enter Last Name</h1>
                             <input placeholder='Enter Last Name'></input>
                         </Grid>
-                        <Grid item xs={12} md={4} zeroMinWidth className='GridItem'>
+                        <Grid item xs={12} md={4} zeroMinWidth marginTop={1}  className='GridItem'>
                             <h1>Enter Phone</h1>
                             <input placeholder='Enter Phone'></input>
                         </Grid>
 
-                        <Grid item xs={12} md={4} zeroMinWidth className='GridItem'>
+                        <Grid item xs={12} md={4} zeroMinWidth marginTop={1}  className='GridItem'>
                             <h1>Enter City</h1>
                             <select placeholder='Enter City'>
                                 <option>Select City</option>
                             </select>
                         </Grid>
-                        <Grid item xs={12} md={4} zeroMinWidth className='GridItem'>
+                        <Grid item xs={12} md={4} zeroMinWidth marginTop={1}  className='GridItem'>
                             <h1>Enter State</h1>
                             <select placeholder='Enter State'>
                                 <option>Select State</option>
                             </select>
                         </Grid>
-                        <Grid item xs={12} md={4} zeroMinWidth className='GridItem'>
+                        <Grid item xs={12} md={4} zeroMinWidth marginTop={1}  className='GridItem'>
                             <h1>Enter Zip Code</h1>
                             <select placeholder='Enter Zip Code'>
                                 <option>Select Zip Code</option>
                             </select>
                         </Grid>
-                        <Grid item xs={12} md={8}  zeroMinWidth className='GridItem'>
+                        <Grid item xs={12} md={8}  zeroMinWidth marginTop={1}  className='GridItem'>
                             <h1>Enter Email</h1>
                             <input className="Email" placeholder='Enter Email'></input>
 
                         </Grid>
-                        <Grid item xs={12} md={4} zeroMinWidth className='GridItem'>
-                            <h1>Select</h1>
+                        <Grid item xs={12} md={4} zeroMinWidth marginTop={1}  className='GridItem'>
+                            <h1>Are you a:</h1>
                             <select placeholder='Select'>
                                 <option>Select</option>
                             </select>
                         </Grid>
-                        <Grid item xs={12} md={12} zeroMinWidth className='GridItem'>
+                        <Grid item xs={12} md={12} zeroMinWidth marginTop={1}  className='GridItem'>
                             <h1>Enter Comments</h1>
                             <input className="Comments" placeholder='Enter Comments'></input>
                         </Grid>
-                        <Grid item xs={12} md={5} zeroMinWidth className='GridItem'>
+                        <Grid item xs={12} md={5} zeroMinWidth marginTop={1}  className='GridItem'>
                             <h1>Tick the box if you want to test before you build!</h1>
                         </Grid>
-                        <Grid item xs={12} md={2} zeroMinWidth className='GridItem'>
+                        <Grid item xs={12} md={2} zeroMinWidth marginTop={1}  className='GridItem'>
                             <Checkbox  defaultChecked />
 
                         </Grid>
-                        <Grid item xs={12} md={5} zeroMinWidth className='GridItem'>
+                        <Grid item xs={12} md={5} zeroMinWidth marginTop={1}  className='GridItem'>
                             
                         </Grid>
                     </Grid>

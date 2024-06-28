@@ -53,10 +53,10 @@
     /* padding: 50px; */
 }
 
-.Home> .Donate >.Content{
-    /* text-align: center; */
-    /* min-width: 854px; */
-}
+/* .Home> .Donate >.Content{
+    text-align: center;
+    min-width: 854px;
+} */
 
 /* .Home> .Donate >.Content>.OrangeButton{
     margin: 50px;
@@ -70,9 +70,9 @@
     display: flex;
     justify-content: center;
     /* padding: 50px; */
-
+    
     min-height: 100%;
-    /* min-height: 954px; */
+    min-height: 954px;
     background-color: #F2F2F1;
     text-align: left;
 }
@@ -120,6 +120,13 @@
 /* .Contact>.Quote{
     max-width: 100%;
 } */
+
+.GridImage{
+    background-image: url("../Assets/GridImage1.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    min-height: 334px;
+}
 
 
 @media (width <= 380px) {

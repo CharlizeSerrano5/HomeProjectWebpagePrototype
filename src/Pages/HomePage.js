@@ -97,7 +97,7 @@ function Home(){
                     >
                         <Grid item xl={2} zeroMinWidth> */}
                         
-                        {/* TESTING BELOW */}
+                        {/* WORKING GRID BELOW */}
                         <Grid 
                         container spacing={{sm:10, xl:20}}
                         justifyContent="center"
@@ -121,9 +121,10 @@ function Home(){
                                         >
                                             </img>       
                                     </Grid>
-                                    <Grid item xs={4} md={5} zeroMinWidth objectPosition="bottom">
+                                    <Grid item xs={4} md={5} zeroMinWidth >
                                         <img
                                         src={GridImage2}
+                                        
                                         width="100%"
 
                                         />   
@@ -152,6 +153,58 @@ function Home(){
                                 <OrangeButton text="Invest"></OrangeButton>
                             </Grid>
                         </Grid>
+
+
+                        {/* ATTEMPTING TO TEST OUT PUTTING TEXT INSIDE OF GRIDS  -- BELOW */}
+
+                        {/* <Grid 
+                        container spacing={{sm:10, xl:20}}
+                        justifyContent="center"
+                        textAlign={{xs: "left", md: "center"}}
+                        alignItems="stretch"
+                        className='Invest  Content'
+                        >
+                            <Grid className='Left' item xs={12} md={6} zeroMinWidth>
+                                <Grid 
+                                container spacing={1}
+                                justifyContent="center"
+                                alignItems="stretch"
+                                maxWidth="700px"
+                                maxHeight="356px"
+                                height="100%"
+                                >
+                                    <Grid item xs={4} md={5} zeroMinWidth className='GridImage 1'>
+                                        <div className='GridImage 1'>
+                                            <p className='WithinImage'>Asset Appreciation</p>
+                                        </div>        
+                                    </Grid>
+                                    <Grid item xs={4} md={5} zeroMinWidth >
+                                        <div className='GridImage 2'>
+                                            <p className='WithinImage'>Asset Appreciation</p>
+                                        </div>  
+                                    </Grid>
+                                    <Grid item   xs={4} md={5} zeroMinWidth>
+                                        <div className='GridImage 3'>
+                                            <p className='WithinImage'>Asset Appreciation</p>
+                                        </div>  
+                                    </Grid>
+                                    <Grid  item  xs={4} md={5}zeroMinWidth>
+                                        <div className='GridImage 4'>
+                                            <p className='WithinImage'>Asset Appreciation</p>
+                                        </div>      
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                            <Grid item className='Right' xs={12} md={6}  zeroMinWidth>
+                                <h1>Secure your tomorrow with rewarding investments in our visionary plan!</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  
+                                    nec justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
+                                </p>
+                                <OrangeButton text="Invest"></OrangeButton>
+                            </Grid>
+                        </Grid> */}
                         
                             {/* <Grid 
                             container spacing={1}

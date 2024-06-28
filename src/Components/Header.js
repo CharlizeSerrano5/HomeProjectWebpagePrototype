@@ -54,7 +54,7 @@ function Header(){
                                     </Grid>
                                 </Grid>
                             </Grid>
-                            <Grid item xs={4} md={2} zeroMinWidth>
+                            <Grid item xs={8} md={2} zeroMinWidth>
                                 <OrangeButton text="Get In Touch" className="Header-Button">
                                 </OrangeButton>
                             </Grid>
