@@ -3,12 +3,15 @@ import './Contact.css'
 import OrangeButton from './OrangeButton';
 import { Grid } from '@mui/material';
 import {Checkbox} from '@mui/material';
-function Contact(){
+function Contact({title, paragraphs}){
     return(
         <div className="Form">
             <div className='Contain'>
                 <div className="Content">
-                    <h1 className='Title'>Get In Touch</h1>
+                    <h1 className='ContactTitle'>{title}</h1>
+                    <p className='ExtraParagraphs'>{paragraphs}</p>
+                    <p className='ExtraParagraphs'>{paragraphs}</p>
+                    <p className='ExtraParagraphs'>{paragraphs}</p>
     {/*                 
                     <input placeholder="Enter First Name"></input>
                     <input placeholder='Enter Last Name'></input>

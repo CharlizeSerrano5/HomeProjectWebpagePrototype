@@ -70,12 +70,14 @@
     display: flex;
     justify-content: center;
     /* padding: 50px; */
-    max-height: 954px;
+
+    min-height: 100%;
+    /* min-height: 954px; */
     background-color: #F2F2F1;
     text-align: left;
 }
 
-.Home>.Invest>.Content{
+/* .Home>.Invest>.Content{
     width: 1300px;
     min-width: 1300px;
 }
@@ -85,7 +87,7 @@
 .Home>.Invest >.Content>.Right{
     width: 50%;
     
-}
+} */
 
 .Home>.Video {
     background-color: rgba(244,81, 30, .07);

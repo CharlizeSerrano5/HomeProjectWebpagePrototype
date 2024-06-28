@@ -97,15 +97,73 @@ function Home(){
                     >
                         <Grid item xl={2} zeroMinWidth> */}
                         
-                            <Grid 
+                        {/* TESTING BELOW */}
+                        <Grid 
+                        container spacing={{sm:10, xl:20}}
+                        justifyContent="center"
+                        textAlign={{xs: "left", md: "center"}}
+                        alignItems="stretch"
+                        className='Invest  Content'
+                        >
+                            <Grid className='Left' item xs={12} md={6} zeroMinWidth>
+                                <Grid 
+                                container spacing={1}
+                                justifyContent="center"
+                                alignItems="stretch"
+                                maxWidth="700px"
+                                maxHeight="356px"
+                                height="100%"
+                                >
+                                    <Grid item xs={4} md={5} zeroMinWidth>
+                                        <img
+                                        src={GridImage1}
+                                        width="100%"
+                                        >
+                                            </img>       
+                                    </Grid>
+                                    <Grid item xs={4} md={5} zeroMinWidth objectPosition="bottom">
+                                        <img
+                                        src={GridImage2}
+                                        width="100%"
+
+                                        />   
+                                    </Grid>
+                                    <Grid item   xs={4} md={5} zeroMinWidth>
+                                        <img
+                                        src={GridImage3}
+                                        width="100%"
+                                        />   
+                                    </Grid>
+                                    <Grid  item  xs={4} md={5}zeroMinWidth>
+                                        <img
+                                        src={GridImage4}
+                                        width="100%"
+                                        />       
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                            <Grid item className='Right' xs={12} md={6}  zeroMinWidth>
+                                <h1>Secure your tomorrow with rewarding investments in our visionary plan!</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  
+                                    nec justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
+                                </p>
+                                <OrangeButton text="Invest"></OrangeButton>
+                            </Grid>
+                        </Grid>
+                        
+                            {/* <Grid 
                             container spacing={1}
                             justifyContent="center"
                             alignItems="stretch"
                             maxWidth="700px"
+                            maxHeight="356px"
                             >
                                 <Grid item md={{ width: 250, height: 334 }} xl={{ width: 250, height: 334 }} zeroMinWidth>
                                     <img
                                     src={GridImage1}
+                            
                                     >
                                         </img>       
                                 </Grid>
@@ -128,21 +186,6 @@ function Home(){
                                     />       
                                 </Grid>
                             </Grid>
-                        {/* </Grid> */}
-                        {/* <Grid item sm={10} zeroMinWidth> */}
-                            {/* <h1>Secure your tomorrow with rewarding investments in our visionary plan!</h1>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  
-                                nec justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
-                            </p>
-                            <OrangeButton text="Invest"></OrangeButton> */}
-                        {/* </Grid> */}
-
-                    {/* </Grid> */}
-                        
-
-                    {/* </div> */}
                     <div className='Right'>
                         <h1>Secure your tomorrow with rewarding investments in our visionary plan!</h1>
                         <p>
@@ -151,12 +194,10 @@ function Home(){
                             Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. 
                         </p>
                         <OrangeButton text="Invest"></OrangeButton>
-                    </div>
-                {/* </div> */}
-                
+                    </div>                 */}
             </div>
             <div className='Contact  Container'>
-                <Contact/>
+                <Contact title="Get In Touch"/>
                 <h1>The Casita design was also awarded the "People's Choice" award in the Tucson Casita competition.</h1>
             </div>
             
@@ -188,8 +229,8 @@ function Home(){
                             </div>
                                 
                         </Grid>
-                        <Grid item xs={12} md={6} zeroMinWidth>
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/oCwdsBSSGsU?si=S5t1ELvgLm7T9_m_" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                        <Grid item xs={10} md={6} zeroMinWidth>
+                            <iframe width="100%" height="596px" src="https://www.youtube.com/embed/oCwdsBSSGsU?si=S5t1ELvgLm7T9_m_" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                         </Grid>
                     </Grid>
             

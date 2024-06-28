@@ -6,6 +6,7 @@ import Profile from '../Assets/Profile.svg'
 import './InvestPage.css'
 import Contact from '../Components/Contact';
 import { Grid } from '@mui/material';
+import GlobalIcon from '../Assets/GlobalIcon.svg'
 
 function InvestPage(){
     return(
@@ -56,29 +57,49 @@ function InvestPage(){
                     className='Why'
                     margin='auto'
                     >
-                        <Grid item md={3.5} zeroMinWidth className='Section Container'>
+                        <Grid item md={3.5} zeroMinWidth className='CircleBox'>
+                            <div className='Section Container'>
+                                <div className='CircleIcon'>
+                                    <img src={GlobalIcon} height="36" width="100%" />
+
+                                </div>
+                                <h4>One global login</h4>
+                                <p>
+                                    Skip the login nightmare for all your
+                                    different accounts, instead, see
+                                    everything from one login.
+                                </p>
+                            </div>
                             
-                            <h4>One global login</h4>
-                            <p>
-                                Skip the login nightmare for all your
-                                different accounts, instead, see
-                                everything from one login.
-                            </p>
                         </Grid>
                         
-                        <Grid item md={3.5} zeroMinWidth className='Section Container'>
-                            <h4>Real-time link</h4>
-                            <p>
-                                Go from delayed and inaccurate
-                                information to one, real time dashboard.
-                            </p>
+                        <Grid item md={3.5} zeroMinWidth className='CircleBox'>
+                            <div className='Section Container'>
+                                <div className='CircleIcon'>
+                                    <img src={GlobalIcon} height="36" width="100%" />
+
+                                </div>
+                                <h4>Real-time link</h4>
+                                <p>
+                                    Go from delayed and inaccurate
+                                    information to one, real time dashboard.
+                                </p>
+                            </div>
+                            
                             
                         </Grid>
-                        <Grid item md={3.5} zeroMinWidth className='Section Container'>
-                            <h4>Reporting, solved</h4>
-                            <p>
-                                Easily create beautiful, custom reports on your balances, cash-flows and transactions.
-                            </p>
+                        <Grid item md={3.5} zeroMinWidth className='CircleBox'>
+                            <div className='Section Container'>
+                                <div className='CircleIcon'>
+                                    <img src={GlobalIcon} height="36" width="100%" />
+
+                                </div>
+                                <h4>Reporting, solved</h4>
+                                <p>
+                                    Easily create beautiful, custom reports on your balances, cash-flows and transactions.
+                                </p>
+                            </div>
+                            
                         </Grid>
                     </Grid>
                                         
@@ -140,7 +161,7 @@ function InvestPage(){
                         <Grid item md={4} zeroMinWidth className='Right'>
                             
                                 <div className='Image'>
-                                <img src={Profile} height="246" width="246" />
+                                <img src={Profile} height="246" width="100%" />
                             </div>
                         </Grid>
                         
@@ -163,7 +184,7 @@ function InvestPage(){
                     <h2>
                         Need assistance with designing or planning the shed of your dreams? Fill out this form and one of our experts will be in touch with you shortly to set up a complimentary phone consultation.
                     </h2>
-                    <Contact></Contact>
+                    <Contact title='Get In Touch'></Contact>
                 </div>
             </div>
         </div>

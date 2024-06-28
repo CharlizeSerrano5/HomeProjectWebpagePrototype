@@ -6,7 +6,11 @@ import { Grid } from '@mui/material';
 import HomeBenefits from '../Assets/BuildHomeBenefits.png'
 import TestingImage from '../Assets/TestingImage.png'
 import AffordableIcon from '../Assets/AffordableIcon.svg'
-
+import HomeIcon from '../Assets/HomeIcon.svg'
+import FlowerIcon from '../Assets/FlowerIcon.svg'
+import StackIcon from '../Assets/StackIcon.svg'
+import EyeIcon from '../Assets/EyeIcon.svg'
+import ShieldIcon from '../Assets/ShieldIcon.svg'
 
 import './BuildPage.css';
 import Contact from '../Components/Contact';
@@ -45,23 +49,23 @@ function BuildPage(){
                                         <h1>At Affordable price!</h1>
                                     </Grid>
                                     <Grid item xs={12} md={4} zeroMinWidth className='Square'>
-                                        <img src={AffordableIcon}  className='Square-Icon' height="37.5" width="37.5" />
+                                        <img src={HomeIcon}  className='Square-Icon' height="37.5" width="37.5" />
                                         <h1>Choose your preferred floor plan</h1>
                                     </Grid>
                                     <Grid item xs={12} md={4} zeroMinWidth className='Square'>
-                                        <img src={AffordableIcon}  className='Square-Icon' height="37.5" width="37.5" />
+                                        <img src={StackIcon}  className='Square-Icon' height="37.5" width="37.5" />
                                         <h1>Secure your permit hassle-free!</h1>
                                     </Grid>
                                     <Grid item xs={12} md={4} zeroMinWidth className='Square'>
-                                        <img src={AffordableIcon}  className='Square-Icon' height="37.5" width="37.5" />
+                                        <img src={FlowerIcon}  className='Square-Icon' height="37.5" width="37.5" />
                                         <h1>Personalize Your Amenities!</h1>
                                     </Grid>
                                     <Grid item xs={12} md={4} zeroMinWidth className='Square'>
-                                        <img src={AffordableIcon} className='Square-Icon'  height="37.5" width="37.5" />
+                                        <img src={EyeIcon} className='Square-Icon'  height="37.5" width="37.5" />
                                         <h1>Build quickly as possible!</h1>
                                     </Grid>
                                     <Grid item xs={12} md={4} zeroMinWidth className='Square'>
-                                        <img src={AffordableIcon} className='Square-Icon' height="37.5" width="37.5" />
+                                        <img src={ShieldIcon} className='Square-Icon' height="37.5" width="37.5" />
                                         <h1>Seamless installation guaranteed!</h1>
                                     </Grid>
                                 </Grid>
@@ -109,7 +113,7 @@ function BuildPage(){
                 <h1>Flexibility and options to suit your lifestyle.</h1>
                 <div className='Image'>
                     <div className='Content'>
-                        <h1>L - Casita</h1>
+                        <h1 className='WithinImage'>L - Casita</h1>
                         One Bedroom - 540 Sq. Ft
                     </div>
                 </div>
@@ -160,8 +164,8 @@ function BuildPage(){
                         </Grid>
                     </Grid>
             <div className='Contact Container Image'>
-                <h1>Available In The Vibrant Heart Of Tuscan, Arizona!</h1>
-                <Contact></Contact>
+                <h1 className='WithinImage'>Available In The Vibrant Heart Of Tuscan, Arizona!</h1>
+                <Contact title='Get In Touch'></Contact>
             </div>
         </div>
     )

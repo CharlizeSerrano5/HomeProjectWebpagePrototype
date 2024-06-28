@@ -32,68 +32,70 @@ function Footer(){
                     alignItems="stretch"
                             
                     >
-                        <Grid item xs={6} zeroMinWidth>
-                                    <img
+                        <Grid item xs={12} md={6} zeroMinWidth>
+                            <img
                             src={CompanyLogo}
                             height="140"
-                            width="159" />
+                            
+                            width="100%"
+                             />
                         </Grid>
                         
-                        <Grid item xs={6} zeroMinWidth>
+                        <Grid item xs={12} md={6} zeroMinWidth>
                             <Grid 
-                                container spacing={2}
-                                direction="row"
-                                justifyContent="Center"
-                                alignItems="stretch"
-                                
-                                >
-                                    <Grid item xs={12} zeroMinWidth>
-                                        <LocationOnIcon className='Icons'></LocationOnIcon>345 Faulconer Drive, Suite 4 • Charlottesville, CA, 12345
-                                    </Grid>
-                                    
-                                    <Grid item xs={4} zeroMinWidth>
-                                        <LocalPhoneIcon className='Icons'></LocalPhoneIcon>(123) 456-7890
-                                    </Grid>
-                                    <Grid item xs={4} zeroMinWidth>
-                                        <PrintIcon className='Icons'></PrintIcon>(123) 456-7890
-                                    </Grid>
+                            container spacing={2}
+                            direction="row"
+                            justifyContent="Center"
+                            alignItems="stretch"
+                            className='Contact-Info'
+                            
+                            >
+                                <Grid item xs={12} md={12} zeroMinWidth>
+                                    <LocationOnIcon className='Icons'></LocationOnIcon>345 Faulconer Drive, Suite 4 • Charlottesville, CA, 12345
                                 </Grid>
-                                <Grid 
+                                
+                                <Grid item xs={12} md={4} zeroMinWidth>
+                                    <LocalPhoneIcon className='Icons'></LocalPhoneIcon>(123) 456-7890
+                                </Grid>
+                                <Grid item xs={12} md={4} zeroMinWidth>
+                                    <PrintIcon className='Icons'></PrintIcon>(123) 456-7890
+                                </Grid>
+                            </Grid>
+                            <Grid 
                             container spacing={1}
                             direction="row"
                             justifyContent="left"
                             alignItems="stretch"
-                            className='Icons'
-                            alignContent=" Social-Media center"
+                            alignContent=" Social-Media center Content"
                             >
-                                <Grid item xs={3} zeroMinWidth className='Text'>
+                                <Grid item md={3} xs={12} zeroMinWidth className='Text'>
                                     Social Media
 
                                 </Grid>
-                                <Grid item xs={1} zeroMinWidth>
-                                    <FacebookIcon></FacebookIcon>
+                                <Grid item md={1} xs={4} zeroMinWidth>
+                                    <FacebookIcon className='Icons'></FacebookIcon>
                                 </Grid>
                                 
-                                <Grid item xs={1} zeroMinWidth>
-                                    <TwitterIcon></TwitterIcon>
+                                <Grid item md={1} xs={4} zeroMinWidth>
+                                    <TwitterIcon className='Icons'></TwitterIcon>
                                 </Grid>
-                                <Grid item xs={1} zeroMinWidth>
-                                    <LinkedInIcon></LinkedInIcon>
+                                <Grid item md={1} xs={4} zeroMinWidth>
+                                    <LinkedInIcon className='Icons'></LinkedInIcon>
                                 </Grid>
-                                <Grid item xs={1} zeroMinWidth>
-                                    <YouTubeIcon></YouTubeIcon>
+                                <Grid item md={1} xs={4} zeroMinWidth>
+                                    <YouTubeIcon className='Icons'></YouTubeIcon>
                                 </Grid>
-                                <Grid item xs={1} zeroMinWidth>
-                                    <InstagramIcon></InstagramIcon>
+                                <Grid item md={1} xs={4} zeroMinWidth>
+                                    <InstagramIcon className='Icons'></InstagramIcon>
                                 </Grid>
-                                <Grid item xs={1} zeroMinWidth>
-                                    <GoogleIcon></GoogleIcon>
+                                <Grid item md={1} xs={4} zeroMinWidth>
+                                    <GoogleIcon className='Icons'></GoogleIcon>
                                 </Grid>
-                                <Grid item xs={1} zeroMinWidth>
-                                    <PinterestIcon></PinterestIcon>
+                                <Grid item md={1} xs={4} zeroMinWidth>
+                                    <PinterestIcon className='Icons'></PinterestIcon>
                                 </Grid>
-                                <Grid item xs={1} zeroMinWidth>
-                                    <RssFeedIcon></RssFeedIcon>
+                                <Grid item md={1} xs={4} zeroMinWidth>
+                                    <RssFeedIcon className='Icons'></RssFeedIcon>
                                 </Grid>
                                 
                             </Grid>
@@ -169,28 +171,71 @@ function Footer(){
                     {/* </div> */}
                 </div>
                 <hr></hr>
-                        <Grid 
+                <Grid 
                         container spacing={{ xs: 1, md: 1 }}
                         direction="row"
                         justifyContent="left"
                         alignItems="stretch"
                         className='GridPages'
                         width='100%'
+                        fontSize='14px'
                         >
-                            <Grid item xs={3} zeroMinWidth>
-                                <p>ABOUT US</p>
+                            <Grid item md={8} xs={12} zeroMinWidth>
+                                    <Grid 
+                                container spacing={{ xs: 1, md: 1 }}
+                                direction="row"
+                                justifyContent="left"
+                                alignItems="stretch"
+                                className='GridPages'
+                                width='100%'
+                                fontSize='14px'
+                                >
+                                    <Grid item md={3} xs={12} zeroMinWidth>
+                                        <p className='bottom-pages'>ABOUT US</p>
+                                    </Grid>
+                                    
+                                    <Grid item md={3} xs={12} zeroMinWidth>
+                                        <p className='bottom-pages'>CONTACT US</p>
+                                    </Grid>
+                                    <Grid item md={3} xs={12} zeroMinWidth>
+                                        <p className='bottom-pages'>PRIVACY POLICY</p>
+                                    </Grid>
+                                    <Grid item md={3} xs={12} zeroMinWidth>
+                                        <p className='bottom-pages'>DISCLAIMER</p>
+                                    </Grid>
+                                </Grid>
                             </Grid>
                             
-                            <Grid item xs={3} zeroMinWidth>
-                                <p>CONTACT US</p>
+                            <Grid item md={4} xs={12} zeroMinWidth>
+                                    <p className='Copyright Footer'>
+                                    Copyright © 2020 Minimumlivingcost. All rights reserved
+                                </p>
                             </Grid>
-                            <Grid item xs={3} zeroMinWidth>
-                                <p>PRIVACY POLICY</p>
-                            </Grid>
-                            <Grid item xs={2} zeroMinWidth>
-                                <p>DISCLAIMER</p>
-                            </Grid>
+                        
                         </Grid>
+                        {/* <Grid 
+                        container spacing={{ xs: 1, md: 1 }}
+                        direction="row"
+                        justifyContent="left"
+                        alignItems="stretch"
+                        className='GridPages'
+                        width='100%'
+                        fontSize='14px'
+                        >
+                            <Grid item md={3} xs={12} zeroMinWidth>
+                                <p className='bottom-pages'>ABOUT US</p>
+                            </Grid>
+                            
+                            <Grid item md={3} xs={12} zeroMinWidth>
+                                <p className='bottom-pages'>CONTACT US</p>
+                            </Grid>
+                            <Grid item md={3} xs={12} zeroMinWidth>
+                                <p className='bottom-pages'>PRIVACY POLICY</p>
+                            </Grid>
+                            <Grid item md={3} xs={12} zeroMinWidth>
+                                <p className='bottom-pages'>DISCLAIMER</p>
+                            </Grid>
+                        </Grid> */}
                    
                     {/* <div className='Right'>
                         <p className='Copyright Footer'>

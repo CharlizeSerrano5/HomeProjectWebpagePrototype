@@ -53,10 +53,10 @@ function DonatePage(){
                     justifyContent="center"
                     alignItems="stretch"
                     textAlign="left"
-                    className='Visions Grid'
+                    className='Visions Grid Container'
                     margin='auto'
                     >
-                        <Grid item xs={3.5} zeroMinWidth className='Section Container'>
+                        <Grid item xs={4} zeroMinWidth className='Section Container'>
                             <div className='Title'>
                                 <h1>01.</h1>
                                 <br></br>
@@ -68,7 +68,7 @@ function DonatePage(){
 
                         </Grid>
                         
-                        <Grid item xs={3.5} zeroMinWidth className='Section Container'>
+                        <Grid item xs={4} zeroMinWidth className='Section Container'>
                             {/* <div > */}
                                 <div className='Title'>
                                     <h1>02.</h1>
@@ -84,7 +84,7 @@ function DonatePage(){
                             </div>
                             
                         </Grid>
-                        <Grid item xs={3.5} zeroMinWidth className='Section Container'>
+                        <Grid item xs={4} zeroMinWidth className='Section Container'>
                             <div className='Title'>
                                 <h1>03.</h1>
                                 <br></br>
@@ -99,29 +99,29 @@ function DonatePage(){
 
 
                     <Grid
-                    container spacing={3}
+                    container spacing={1}
                     direction="row"
                     justifyContent="center"
                     alignItems="stretch"
                     textAlign="center"
-                    className='Visions Bottom Grid'
+                    className='  Visions Bottom Grid'
                     margin='auto'
                     >
-                        <Grid item xs={3.5} zeroMinWidth className='Section Container'>
-                            <img src={HomeIcon} height="79" width="90" />
+                        <Grid item xs={4} zeroMinWidth className=' Container VisionsIcons '>
+                            <img src={HomeIcon} height="79" width="90" className='VisionsIcons'/>
                             <h1>10</h1>
                             <h1>Years</h1>
                         </Grid>
                         
-                        <Grid item xs={3.5} zeroMinWidth className='Section Container'>
-                                <img src={HomeIcon} height="79" width="90"/>
+                        <Grid item xs={4} zeroMinWidth className=' Container VisionsIcons' >
+                                <img src={HomeIcon} height="79" width="90"  />
                                 <h1>30</h1>
                                 <h1>Units</h1>
                             
                             
                         </Grid>
-                        <Grid item xs={3.5} zeroMinWidth className='Section Container'>
-                            <img src={HomeIcon} height="79" width="90" />
+                        <Grid item xs={4} zeroMinWidth className=' Container VisionsIcons'>
+                            <img src={HomeIcon} height="79" width="90" className='VisionsIcons'/>
                             <h1>150</h1>
                             <h1>Families Helped</h1>
 
@@ -141,7 +141,12 @@ function DonatePage(){
                 </div>
             </div>
             <div className='Donation Container'>
-                <Contact></Contact>
+                <Contact title="Make A Donation Now!"
+                paragraphs="Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit. 
+                Etiam interdum nisl et nunc facilisis, 
+                a commodo eros mollis. Nunc vel pellentesque est. Curabitur at odio sit amet libero vulputate efficitur ac nec justo. Nulla vitae mauris quam. Nulla quam massa, faucibus id pretium ac, mattis eu velit. Donec sed risus a lacus fringilla finibus."
+                ></Contact>
             </div>
         </div>
     )
