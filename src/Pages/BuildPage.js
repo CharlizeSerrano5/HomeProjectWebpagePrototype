@@ -23,7 +23,51 @@ function BuildPage(){
                 </div>
             </div>
             <div className='Benefits Container'>
-                <div className='Content'>
+
+                        <Grid 
+                        container spacing={{xs: 1,md:1}}
+                        justifyContent="center"
+                        alignItems="stretch"
+                        className='Container'
+                        >
+                            <Grid item xs={12} md={6} zeroMinWidth className='Square'>
+                                <img src={HomeBenefits} width="100%" />
+
+                            </Grid>
+                            <Grid item xs={12} md={6} zeroMinWidth className='Square'>
+                                    <Grid 
+                                container spacing={{xs: 5,md:3}}
+                                justifyContent="center"
+                                alignItems="stretch"
+                                >
+                                    <Grid item xs={12} md={4} zeroMinWidth className='Square'>
+                                        <img src={AffordableIcon} className='Square-Icon' height="37.5" width="37.5" />
+                                        <h1>At Affordable price!</h1>
+                                    </Grid>
+                                    <Grid item xs={12} md={4} zeroMinWidth className='Square'>
+                                        <img src={AffordableIcon}  className='Square-Icon' height="37.5" width="37.5" />
+                                        <h1>Choose your preferred floor plan</h1>
+                                    </Grid>
+                                    <Grid item xs={12} md={4} zeroMinWidth className='Square'>
+                                        <img src={AffordableIcon}  className='Square-Icon' height="37.5" width="37.5" />
+                                        <h1>Secure your permit hassle-free!</h1>
+                                    </Grid>
+                                    <Grid item xs={12} md={4} zeroMinWidth className='Square'>
+                                        <img src={AffordableIcon}  className='Square-Icon' height="37.5" width="37.5" />
+                                        <h1>Personalize Your Amenities!</h1>
+                                    </Grid>
+                                    <Grid item xs={12} md={4} zeroMinWidth className='Square'>
+                                        <img src={AffordableIcon} className='Square-Icon'  height="37.5" width="37.5" />
+                                        <h1>Build quickly as possible!</h1>
+                                    </Grid>
+                                    <Grid item xs={12} md={4} zeroMinWidth className='Square'>
+                                        <img src={AffordableIcon} className='Square-Icon' height="37.5" width="37.5" />
+                                        <h1>Seamless installation guaranteed!</h1>
+                                    </Grid>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                {/* <div className='Content'>
                     <div className='Image'>
                         <img src={HomeBenefits} height="521" width="387" />
                     </div>
@@ -59,7 +103,7 @@ function BuildPage(){
                             </Grid>
                         </Grid>
                     </div>
-                </div>
+                </div> */}
             </div>
             <div className='Options  Container'>
                 <h1>Flexibility and options to suit your lifestyle.</h1>
@@ -81,7 +125,7 @@ function BuildPage(){
                 
                 <OrangeButton text="Get a Free Estimate"></OrangeButton>
             </div>
-            <div className='Testing  Container'>
+            {/* <div className='Testing  Container'>
                 <div className='Content'>
                     <div className='Left'>
                         <h1>Test-drive your tiny home and immerse yourself in our full range of activities & amenities!</h1>
@@ -93,7 +137,28 @@ function BuildPage(){
                         <img src={TestingImage} height="657" width="638" />
                     </div>
                 </div>
-            </div>
+            </div> */}
+
+            <Grid 
+                    container spacing={{sm:10, xl:20}}
+                    // paddingTop={0}
+                    margin={0}
+                    justifyContent="center"
+                    textAlign={{xs: "left", md: "center"}}
+                    alignItems="stretch"
+                    className='Testing Content Container'
+                    >
+                        <Grid className='Left' item xs={12} md={6} zeroMinWidth>
+                            <h1>Test-drive your tiny home and immerse yourself in our full range of activities & amenities!</h1>
+                            <h2>Try before buy @ $199 / Night</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis.  nec justo. </p>
+                            <OrangeButton text="Contact Us"></OrangeButton>
+                        </Grid>
+                        <Grid item className='Right' xs={12} md={6}  zeroMinWidth>
+                            <img src={TestingImage}  width="100%" />
+
+                        </Grid>
+                    </Grid>
             <div className='Contact Container Image'>
                 <h1>Available In The Vibrant Heart Of Tuscan, Arizona!</h1>
                 <Contact></Contact>

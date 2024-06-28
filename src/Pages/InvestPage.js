@@ -109,7 +109,7 @@ function InvestPage(){
                     
                 </div>
             </div>
-            <div className='Investor  Container'>
+            {/* <div className='Investor  Container'>
                 <div className='Content'>
                     <div className='Image'>
                         <img src={Profile} height="246" width="246" />
@@ -126,7 +126,38 @@ function InvestPage(){
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
+
+                    <Grid
+                    container spacing={3}
+                    direction="row"
+                    justifyContent="center"
+                    alignItems="stretch"
+                    textAlign="left"
+                    className='Investor Container'
+                    margin='auto'
+                    >
+                        <Grid item md={4} zeroMinWidth className='Right'>
+                            
+                                <div className='Image'>
+                                <img src={Profile} height="246" width="246" />
+                            </div>
+                        </Grid>
+                        
+                        <Grid item md={8} zeroMinWidth className='Left'>
+                            <p className='Quote'>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis. 
+                                Nunc vel pellentesque est. Curabitur at odio sit amet libero vulputate efficitur ac nec justo. Nulla vitae mauris quam. Nulla quam massa, 
+                                faucibus id pretium ac, mattis eu velit. Donec sed risus a lacus fringilla finibus.
+                            </p>
+                            <div className='Person'>
+                                <p className='Name'>Harry Wilson</p>
+                                <p>Investor</p>
+                            </div>
+                            
+                        </Grid>
+                    </Grid>
+
             <div className='Assistance  Container'>
                 <div className='Content'>
                     <h2>

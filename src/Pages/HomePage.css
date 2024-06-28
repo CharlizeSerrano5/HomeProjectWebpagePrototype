@@ -5,11 +5,13 @@
     /* border-style: solid; */
     background-color: white;
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     /* height: 801px; */
     /* display: flex;
     justify-content: center; */
 }
+
+.Home>.Assessment>.Right{}
 
 .Home> .Assessment >.Content>.Left>h1{
     margin-bottom: 70px;
@@ -44,7 +46,7 @@
 }
 
 .Home> .Donate {
-    height: 360px;
+    min-height: 360px;
     display: block;
     background-color: rgba(244,81, 30, .07);
     justify-content: center;
@@ -53,7 +55,7 @@
 
 .Home> .Donate >.Content{
     /* text-align: center; */
-    min-width: 854px;
+    /* min-width: 854px; */
 }
 
 /* .Home> .Donate >.Content>.OrangeButton{

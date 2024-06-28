@@ -93,29 +93,22 @@ function Footer(){
                     </div>
                 </div>
                 <hr></hr>
-                
-                <div className='Bottom'>
-                    {/* <ul className='Footer-Pages Footer'>
-                        <li>ABOUT US</li>
-                        <li>CONTACT US</li>
-                        <li>PRIVACY POLICY</li>
-                        <li>DISCLAIMER</li>
-                    </ul> */}
                         <Grid 
                         container spacing={{ xs: 1, md: 1 }}
                         direction="row"
                         justifyContent="left"
                         alignItems="stretch"
                         className='GridPages'
+                        width='100%'
                         >
-                            <Grid item xs={2} zeroMinWidth>
+                            <Grid item xs={3} zeroMinWidth>
                                 <p>ABOUT US</p>
                             </Grid>
                             
-                            <Grid item xs={2} zeroMinWidth>
+                            <Grid item xs={3} zeroMinWidth>
                                 <p>CONTACT US</p>
                             </Grid>
-                            <Grid item xs={2} zeroMinWidth>
+                            <Grid item xs={3} zeroMinWidth>
                                 <p>PRIVACY POLICY</p>
                             </Grid>
                             <Grid item xs={2} zeroMinWidth>
@@ -123,13 +116,12 @@ function Footer(){
                             </Grid>
                         </Grid>
                    
-                    <div className='Right'>
+                    {/* <div className='Right'>
                         <p className='Copyright Footer'>
                             Copyright © 2020 Minimumlivingcost. All rights reserved
                         </p>
-                    </div>
+                    </div> */}
                     
-                </div>
             </div>    
         </div>
     )

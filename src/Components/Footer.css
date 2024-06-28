@@ -1,5 +1,6 @@
 .Footer{
     font-size: 14px;
+    /* width: 100%; */
 }
 
 .Footer.p{
@@ -12,11 +13,13 @@
     justify-content: center;
     
     font-size: 14px;
+    margin: auto;
     
 }
 
-.Footer>.Bottom>.Left{
-    width: 70%
+.Footer-UI>.Bottom>.GridPages{
+    background-color: pink;
+    width: 100%;
 }
 
 .Footer>.Bottom>.Right{
