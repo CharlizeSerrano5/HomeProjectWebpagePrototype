@@ -89,14 +89,17 @@
     display: flex;
     text-align: left;
     min-height: 596px;
+    padding: 0;
+
 }
 
-.Home>.Video >.Quote {
-    /* max-width:635px; */
-}
 
-.Home>.Video >.Quote  >.Text{
+.Home>.Video >.Quote  >.Text, .Home>.Video>.Quote>.Quote>.Text{
     font-size: 21px;
+}
+
+.Home>.Video>.Quote>.Quote>.Text{
+    width: 100%;
 }
 
 .Home>.Video >.Quote >.Profile{
@@ -108,6 +111,10 @@
 .Home>.Video >.Quote >.Profile>.Image{
     margin-right: 10px;
 }
+
+/* .Contact>.Quote{
+    max-width: 100%;
+} */
 
 
 @media (width <= 380px) {

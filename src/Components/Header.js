@@ -13,27 +13,27 @@ function Header(){
                     <img src={CompanyLogo} height="79" width="90" />
                 </div>
                     <Grid 
-                    container spacing={{ md: 2}}
+                    container spacing={{ md: 1, xl: 2}}
                     direction="row"
                     justifyContent="center"
                     place-items="center"
                     alignItems="stretch"
                     className='GridPages'
                     >
-                        <Grid item md={1.5} xl={5} zeroMinWidth>
+                        <Grid item xs={12} md={2.4} zeroMinWidth>
                             <p><Link to='/Home'>Home</Link></p>
                         </Grid>
                         
-                        <Grid item md={1.5} xl={5} zeroMinWidth>
+                        <Grid item xs={12} md={2.4} zeroMinWidth>
                             <p><Link to='/Build'>Build</Link></p>
                         </Grid>
-                        <Grid item md={1.5} xl={5} zeroMinWidth>
+                        <Grid item xs={12} md={2.4} zeroMinWidth>
                             <p><Link to='/Invest'>Invest</Link></p>
                         </Grid>
-                        <Grid item md={1.5} xl={5} zeroMinWidth>
+                        <Grid item xs={12} md={2.4} zeroMinWidth>
                             <p><Link to='/Donate'>Donate</Link></p>
                         </Grid>
-                        <Grid item md={1.5} xl={5} zeroMinWidth>
+                        <Grid item xs={12} md={2.4} zeroMinWidth>
                             <p><a href="#">About</a></p>
                         </Grid>
                     </Grid>

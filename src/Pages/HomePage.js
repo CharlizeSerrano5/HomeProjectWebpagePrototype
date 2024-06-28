@@ -8,10 +8,11 @@ import HomeLayout from '../Assets/HomePageHome.png';
 import Profile from '../Assets/Profile.svg';
 import Contact from '../Components/Contact';
 import { Grid } from '@mui/material';
-import GridImage1 from '../Assets/GridImage1.png'
-import GridImage2 from '../Assets/GridImage2.png'
-import GridImage3 from '../Assets/GridImage3.png'
-import GridImage4 from '../Assets/GridImage4.png'
+import GridImage1 from '../Assets/GridImage1.png';
+import GridImage2 from '../Assets/GridImage2.png';
+import GridImage3 from '../Assets/GridImage3.png';
+import GridImage4 from '../Assets/GridImage4.png';
+import {Container} from '@mui/material';
 
 // import Grid from '@mui/material';
 import './HomePage.css'
@@ -31,7 +32,7 @@ function Home(){
                     alignItems="stretch"
                     className='Assessment  Container'
                     >
-                        <Grid className='Left' item sm={4} xl={10} zeroMinWidth>
+                        <Grid className='Left' item xs={12} md={6} zeroMinWidth>
                             <h1>Build Your Tiny Home, <hr></hr> Redefine Your Space.</h1>
                             <ul>
                                 <li>Take a Free Assessment</li>
@@ -41,7 +42,7 @@ function Home(){
                             <OrangeButton text='Start Building'></OrangeButton>
                             <p className='Note'>We've got you covered from permits to installation. Take a Free Assessment to get your quick estimate now!</p>
                         </Grid>
-                        <Grid item className='Right' xl={{width: 561, height: 658}} zeroMinWidth>
+                        <Grid item className='Right' xs={12} md={6}  zeroMinWidth>
                             <img
                             src={HomeLayout}
                             height="658"
@@ -111,6 +112,8 @@ function Home(){
                                 <Grid item md={{ width: 270, height: 270 }} xl={{ width: 270, height: 270 }} zeroMinWidth>
                                     <img
                                     src={GridImage2}
+                                    
+
                                     />   
                                 </Grid>
                                 <Grid item md={{ width: 212, height: 285 }} xl={{ width: 212, height: 285 }} zeroMinWidth>
@@ -152,7 +155,7 @@ function Home(){
                 {/* </div> */}
                 
             </div>
-            <div className='Contact  Container'>
+            {/* <div className='Contact  Container'>
                 <Contact/>
                 <h1>The Casita design was also awarded the "People's Choice" award in the Tucson Casita competition.</h1>
             </div>
@@ -175,18 +178,20 @@ function Home(){
                 <div>
                     <iframe width="590" height="100%" src="https://www.youtube.com/embed/oCwdsBSSGsU?si=S5t1ELvgLm7T9_m_" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
-            </div>
-
-                    {/* <Grid 
+            </div> */}
+            
+                    <Grid 
                     container spacing={1}
                     direction="row"
                     justifyContent="center"
                     place-items="center"
                     alignItems="stretch"
-                    className='GridPages'
+                    className='Video Container'
+                    
+                    
                     >
-                        <Grid item xs={6} zeroMinWidth>
-                            <div className='Quote Content Container'>
+                        <Grid item xs={12} md={6} zeroMinWidth className='Quote Content Container Left'>
+                            <div className='Content'>
                                 <p className='Text'>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis. Nunc vel pellentesque est. Curabitur at odio sit amet libero vulputate efficitur ac nec justo. 
                                     Nulla vitae mauris quam. Nulla quam massa, faucibus id pretium ac, mattis eu velit. Donec sed risus a lacus fringilla finibus.
@@ -201,14 +206,13 @@ function Home(){
                                     </div>
                                 </div>
                             </div>
+                                
                         </Grid>
-                        <Grid item xs={6} zeroMinWidth>
-                            <div>
-                                <iframe width="590" height="100%" src="https://www.youtube.com/embed/oCwdsBSSGsU?si=S5t1ELvgLm7T9_m_" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                            </div>
+                        <Grid item xs={12} md={6} zeroMinWidth>
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/oCwdsBSSGsU?si=S5t1ELvgLm7T9_m_" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                         </Grid>
                     </Grid>
-             */}
+            
 
         </div>
     )

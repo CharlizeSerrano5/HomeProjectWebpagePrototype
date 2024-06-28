@@ -48,31 +48,31 @@ function BuildPage(){
                         </div> */}
 
                         <Grid 
-                        container spacing={{sm: 20,xl:12}}
+                        container spacing={{xs: 10,md:20}}
                         justifyContent="center"
                         alignItems="stretch"
                         >
-                            <Grid item sm={4} xl={3} zeroMinWidth className='Square'>
+                            <Grid item xs={6} md={4} zeroMinWidth className='Square'>
                                 <img src={AffordableIcon} className='Square-Icon' height="37.5" width="37.5" />
                                 <h1>At Affordable price!</h1>
                             </Grid>
-                            <Grid item sm={4} xl={3} zeroMinWidth className='Square'>
+                            <Grid item xs={6} md={4} zeroMinWidth className='Square'>
                                 <img src={AffordableIcon}  className='Square-Icon' height="37.5" width="37.5" />
                                 <h1>Choose your preferred floor plan</h1>
                             </Grid>
-                            <Grid item sm={4} xl={3} zeroMinWidth className='Square'>
+                            <Grid item xs={6} md={4} zeroMinWidth className='Square'>
                                 <img src={AffordableIcon}  className='Square-Icon' height="37.5" width="37.5" />
                                 <h1>Secure your permit hassle-free!</h1>
                             </Grid>
-                            <Grid item sm={4} xl={3} zeroMinWidth className='Square'>
+                            <Grid item xs={6} md={4} zeroMinWidth className='Square'>
                                 <img src={AffordableIcon}  className='Square-Icon' height="37.5" width="37.5" />
                                 <h1>Personalize Your Amenities!</h1>
                             </Grid>
-                            <Grid item sm={4} xl={3} zeroMinWidth className='Square'>
+                            <Grid item xs={6} md={4} zeroMinWidth className='Square'>
                                 <img src={AffordableIcon} className='Square-Icon'  height="37.5" width="37.5" />
                                 <h1>Build quickly as possible!</h1>
                             </Grid>
-                            <Grid item sm={4} xl={3} zeroMinWidth className='Square'>
+                            <Grid item xs={6} md={4} zeroMinWidth className='Square'>
                                 <img src={AffordableIcon} className='Square-Icon' height="37.5" width="37.5" />
                                 <h1>Seamless installation guaranteed!</h1>
                             </Grid>
