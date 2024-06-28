@@ -29,6 +29,7 @@ function Home(){
                     <Grid 
                     container spacing={{sm:10, xl:20}}
                     justifyContent="center"
+                    textAlign={{xs: "left", md: "center"}}
                     alignItems="stretch"
                     className='Assessment  Container'
                     >

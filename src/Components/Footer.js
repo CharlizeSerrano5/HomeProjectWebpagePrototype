@@ -12,7 +12,7 @@ import PinterestIcon from '@mui/icons-material/Pinterest';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import PrintIcon from '@mui/icons-material/Print';
-
+import RssFeedIcon from '@mui/icons-material/RssFeed';
 function Footer(){
     return (
         <div className='Footer Container'>
@@ -28,68 +28,64 @@ function Footer(){
                         <div>
 
                         <Grid 
-                            container spacing={1}
+                            container spacing={2}
                             direction="row"
                             justifyContent="left"
                             alignItems="stretch"
                             
                             >
-                                <Grid item xs={8} zeroMinWidth>
+                                <Grid item xs={12} zeroMinWidth>
                                     <LocationOnIcon className='Icons'></LocationOnIcon>345 Faulconer Drive, Suite 4 • Charlottesville, CA, 12345
                                 </Grid>
                                 
-                                <Grid item xs={5} zeroMinWidth>
+                                <Grid item xs={4} zeroMinWidth>
                                     <LocalPhoneIcon className='Icons'></LocalPhoneIcon>(123) 456-7890
                                 </Grid>
-                                <Grid item xs={5} zeroMinWidth>
+                                <Grid item xs={4} zeroMinWidth>
                                     <PrintIcon className='Icons'></PrintIcon>(123) 456-7890
                                 </Grid>
                             </Grid>
                         </div>
                         
                         <div className='Social-Media'>
-                            <div className='Text'>
-                                Social Media
-                            </div>
-                            {/* <div className='Icons'>
-                                <FacebookIcon></FacebookIcon>
-                                <TwitterIcon></TwitterIcon>
-                                <LinkedInIcon></LinkedInIcon>
-                                <YouTubeIcon></YouTubeIcon>
-                                <InstagramIcon></InstagramIcon>
-                                <GoogleIcon></GoogleIcon>
-                                <PinterestIcon></PinterestIcon>
-                            </div> */}
                             <Grid 
-                            container spacing={5}
+                            container spacing={1}
                             direction="row"
                             justifyContent="left"
                             alignItems="stretch"
                             className='Icons'
-                            alignContent="center"
+                            alignContent=" Social-Media center"
                             >
-                                <Grid item xs={0.5} zeroMinWidth>
+                                <Grid item xs={3} zeroMinWidth className='Text'>
+                                    Social Media
+
+                                </Grid>
+                                <Grid item xs={1} zeroMinWidth>
                                     <FacebookIcon></FacebookIcon>
                                 </Grid>
                                 
-                                <Grid item xs={0.5} zeroMinWidth>
+                                <Grid item xs={1} zeroMinWidth>
                                     <TwitterIcon></TwitterIcon>
                                 </Grid>
-                                <Grid item xs={0.5} zeroMinWidth>
+                                <Grid item xs={1} zeroMinWidth>
                                     <LinkedInIcon></LinkedInIcon>
                                 </Grid>
-                                <Grid item xs={0.5} zeroMinWidth>
+                                <Grid item xs={1} zeroMinWidth>
                                     <YouTubeIcon></YouTubeIcon>
                                 </Grid>
-                                <Grid item xs={0.5} zeroMinWidth>
+                                <Grid item xs={1} zeroMinWidth>
                                     <InstagramIcon></InstagramIcon>
                                 </Grid>
-                                <Grid item xs={0.5} zeroMinWidth>
+                                <Grid item xs={1} zeroMinWidth>
                                     <GoogleIcon></GoogleIcon>
                                 </Grid>
-                                <Grid item xs={0.5} zeroMinWidth>
+                                <Grid item xs={1} zeroMinWidth>
                                     <PinterestIcon></PinterestIcon>
                                 </Grid>
+                                <Grid item xs={1} zeroMinWidth>
+                                    <RssFeedIcon></RssFeedIcon>
+                                </Grid>
+                                
                             </Grid>
                         </div> 
                         

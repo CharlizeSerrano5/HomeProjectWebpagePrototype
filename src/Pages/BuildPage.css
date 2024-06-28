@@ -1,10 +1,11 @@
 .Build > .Options {
     background-color: #F5F5F5;
+    width: 100%;
 }
 
 .Build > .Options > .Image{
     background-color: #D9D9D9;
-    width: 1065px;
+    width: 80%;
     height: 701px;
     margin: auto;
 }

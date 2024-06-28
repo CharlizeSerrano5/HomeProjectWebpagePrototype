@@ -27,52 +27,33 @@ function BuildPage(){
                     <div className='Image'>
                         <img src={HomeBenefits} height="521" width="387" />
                     </div>
-                    <div className='Right'>
-                        {/* <div className='Section'>
-                            At Affordable price!
-                        </div>
-                        <div className='Section'>
-                            Choose your preferred floor plan
-                        </div>
-                        <div className='Section'>
-                            Secure your permit hassle-free!
-                        </div>
-                        <div className='Section'>
-                            Personalize Your Amenities!
-                        </div>
-                        <div className='Section'>
-                            Build quickly as possible!
-                        </div>
-                        <div className='Section'>
-                            Seamless installation guaranteed!
-                        </div> */}
-
+                    <div className='Right Content'>
                         <Grid 
-                        container spacing={{xs: 10,md:20}}
+                        container spacing={{xs: 5,md:20}}
                         justifyContent="center"
                         alignItems="stretch"
                         >
-                            <Grid item xs={6} md={4} zeroMinWidth className='Square'>
+                            <Grid item xs={12} md={4} zeroMinWidth className='Square'>
                                 <img src={AffordableIcon} className='Square-Icon' height="37.5" width="37.5" />
                                 <h1>At Affordable price!</h1>
                             </Grid>
-                            <Grid item xs={6} md={4} zeroMinWidth className='Square'>
+                            <Grid item xs={12} md={4} zeroMinWidth className='Square'>
                                 <img src={AffordableIcon}  className='Square-Icon' height="37.5" width="37.5" />
                                 <h1>Choose your preferred floor plan</h1>
                             </Grid>
-                            <Grid item xs={6} md={4} zeroMinWidth className='Square'>
+                            <Grid item xs={12} md={4} zeroMinWidth className='Square'>
                                 <img src={AffordableIcon}  className='Square-Icon' height="37.5" width="37.5" />
                                 <h1>Secure your permit hassle-free!</h1>
                             </Grid>
-                            <Grid item xs={6} md={4} zeroMinWidth className='Square'>
+                            <Grid item xs={12} md={4} zeroMinWidth className='Square'>
                                 <img src={AffordableIcon}  className='Square-Icon' height="37.5" width="37.5" />
                                 <h1>Personalize Your Amenities!</h1>
                             </Grid>
-                            <Grid item xs={6} md={4} zeroMinWidth className='Square'>
+                            <Grid item xs={12} md={4} zeroMinWidth className='Square'>
                                 <img src={AffordableIcon} className='Square-Icon'  height="37.5" width="37.5" />
                                 <h1>Build quickly as possible!</h1>
                             </Grid>
-                            <Grid item xs={6} md={4} zeroMinWidth className='Square'>
+                            <Grid item xs={12} md={4} zeroMinWidth className='Square'>
                                 <img src={AffordableIcon} className='Square-Icon' height="37.5" width="37.5" />
                                 <h1>Seamless installation guaranteed!</h1>
                             </Grid>
