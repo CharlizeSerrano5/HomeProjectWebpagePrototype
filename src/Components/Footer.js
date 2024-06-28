@@ -17,15 +17,91 @@ function Footer(){
     return (
         <div className='Footer Container'>
             <div className='Footer-UI Content'>  
-                <div className='Middle Content'>
-                    <div className='Left'>
+                {/* <div className='Middle Content'> */}
+                    {/* <div className='Left'>
                         <img
                         src={CompanyLogo}
                         height="140"
-                        width="159" />
-                    </div>
-                    <div className='Right'>
-                        <div>
+                        width="159" /> */}
+                    {/* </div> */}
+                    <div className='Middle Content'>
+                    <Grid 
+                    container spacing={2}
+                    direction="row"
+                    justifyContent="left"
+                    alignItems="stretch"
+                            
+                    >
+                        <Grid item xs={6} zeroMinWidth>
+                                    <img
+                            src={CompanyLogo}
+                            height="140"
+                            width="159" />
+                        </Grid>
+                        
+                        <Grid item xs={6} zeroMinWidth>
+                            <Grid 
+                                container spacing={2}
+                                direction="row"
+                                justifyContent="Center"
+                                alignItems="stretch"
+                                
+                                >
+                                    <Grid item xs={12} zeroMinWidth>
+                                        <LocationOnIcon className='Icons'></LocationOnIcon>345 Faulconer Drive, Suite 4 • Charlottesville, CA, 12345
+                                    </Grid>
+                                    
+                                    <Grid item xs={4} zeroMinWidth>
+                                        <LocalPhoneIcon className='Icons'></LocalPhoneIcon>(123) 456-7890
+                                    </Grid>
+                                    <Grid item xs={4} zeroMinWidth>
+                                        <PrintIcon className='Icons'></PrintIcon>(123) 456-7890
+                                    </Grid>
+                                </Grid>
+                                <Grid 
+                            container spacing={1}
+                            direction="row"
+                            justifyContent="left"
+                            alignItems="stretch"
+                            className='Icons'
+                            alignContent=" Social-Media center"
+                            >
+                                <Grid item xs={3} zeroMinWidth className='Text'>
+                                    Social Media
+
+                                </Grid>
+                                <Grid item xs={1} zeroMinWidth>
+                                    <FacebookIcon></FacebookIcon>
+                                </Grid>
+                                
+                                <Grid item xs={1} zeroMinWidth>
+                                    <TwitterIcon></TwitterIcon>
+                                </Grid>
+                                <Grid item xs={1} zeroMinWidth>
+                                    <LinkedInIcon></LinkedInIcon>
+                                </Grid>
+                                <Grid item xs={1} zeroMinWidth>
+                                    <YouTubeIcon></YouTubeIcon>
+                                </Grid>
+                                <Grid item xs={1} zeroMinWidth>
+                                    <InstagramIcon></InstagramIcon>
+                                </Grid>
+                                <Grid item xs={1} zeroMinWidth>
+                                    <GoogleIcon></GoogleIcon>
+                                </Grid>
+                                <Grid item xs={1} zeroMinWidth>
+                                    <PinterestIcon></PinterestIcon>
+                                </Grid>
+                                <Grid item xs={1} zeroMinWidth>
+                                    <RssFeedIcon></RssFeedIcon>
+                                </Grid>
+                                
+                            </Grid>
+                        </Grid>
+                        
+                    </Grid>
+                        
+                        {/* <div>
 
                         <Grid 
                             container spacing={2}
@@ -45,9 +121,9 @@ function Footer(){
                                     <PrintIcon className='Icons'></PrintIcon>(123) 456-7890
                                 </Grid>
                             </Grid>
-                        </div>
+                        </div> */}
                         
-                        <div className='Social-Media'>
+                        {/* <div className='Social-Media'>
                             <Grid 
                             container spacing={1}
                             direction="row"
@@ -87,10 +163,10 @@ function Footer(){
                                 </Grid>
                                 
                             </Grid>
-                        </div> 
+                        </div>  */}
                         
                         
-                    </div>
+                    {/* </div> */}
                 </div>
                 <hr></hr>
                         <Grid 
