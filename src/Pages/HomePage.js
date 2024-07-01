@@ -7,7 +7,7 @@ import Checkmark from '../Assets/Checkmark.svg';
 import HomeLayout from '../Assets/HomePageHome.png';
 import Profile from '../Assets/Profile.svg';
 import Contact from '../Components/Contact';
-import { Grid } from '@mui/material';
+import { Grid, autocompleteClasses } from '@mui/material';
 import GridImage1 from '../Assets/GridImage1.png';
 import GridImage2 from '../Assets/GridImage2.png';
 import GridImage3 from '../Assets/GridImage3.png';
@@ -118,14 +118,25 @@ function Home(){
                                         <img
                                         src={GridImage1}
                                         width="100%"
+                                        alignSelf='flex-end'
                                         >
                                             </img>       
                                     </Grid>
-                                    <Grid item xs={4} md={5} zeroMinWidth >
+                                    <Grid className='item2' item xs={4} md={5} zeroMinWidth bottom={0}>
                                         <img
                                         src={GridImage2}
+                                        style={{
+                                            width: "100%",
+                                            alignSelf: 'flex-end',
+                                            bottom: '0px',
+                                            paddingTop: 'auto',
+                                            // height: 'auto',
+                                            marginTop: '80px',
+                                            marginBottom: '0px',
+                                            alignSelf: 'end',
+                                            justifySelf: 'end'
+                                        }}
                                         
-                                        width="100%"
 
                                         />   
                                     </Grid>
@@ -133,12 +144,14 @@ function Home(){
                                         <img
                                         src={GridImage3}
                                         width="100%"
+                                        alignSelf='flex-end'
                                         />   
                                     </Grid>
                                     <Grid  item  xs={4} md={5}zeroMinWidth>
                                         <img
                                         src={GridImage4}
                                         width="100%"
+                                        alignSelf='flex-end'
                                         />       
                                     </Grid>
                                 </Grid>
