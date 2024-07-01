@@ -7,6 +7,7 @@ import './InvestPage.css'
 import Contact from '../Components/Contact';
 import { Grid } from '@mui/material';
 import GlobalIcon from '../Assets/GlobalIcon.svg'
+import BarGraph from '../Components/BarGraph'
 
 function InvestPage(){
     return(
@@ -124,6 +125,10 @@ function InvestPage(){
                                 </p>
                                 <OrangeButton text="Invest"></OrangeButton>
                             </div>
+                            <div className='Right'>
+                                <BarGraph></BarGraph>
+                            </div>
+
                         </div>
                     </div>
                     
